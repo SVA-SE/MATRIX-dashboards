@@ -1,3 +1,7 @@
-theme: jekyll-theme-slate
 title: MATRIX Dashboards
 description: An inventory of dashboard development for One Health disease surveillance.
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+plugins:
+  - jekyll-include-cache
