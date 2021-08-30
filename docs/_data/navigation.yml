@@ -1,3 +1,13 @@
 main:
  - title: "Home"
    url: index.md
+ - title: "Dashboard Glossary"
+   url: glossary.md
+ - title: "Data and Workflows"
+   url: data.md
+ - title: "Dashboard Design and Technology"
+   url: design.md
+ - title: "Resources and Examples"
+   url: examples.md
+ - title: "Contact"
+   url: contact.md
