@@ -32,11 +32,15 @@ The efforts in Work Package 6 of MATRIX are led by the Swedish National Veterina
 * The French Agency for Food, Environmental and Occupational Health & Safety ([ANSES](https://www.anses.fr/en))
 * The German Federal Institute for Risk Assessment ([BfR](https://www.bfr.bund.de/en/home.html))
 * The Friedrich-Loeffler-Institut ([FLI](https://www.fli.de/en/startpage/)), Germany
+* The Norwegian Veterinary Institute ([NVI](https://www.vetinst.no/en))
 * Statens Serum Institut ([SSI](https://en.ssi.dk/)), Denmark
 * The Animal and Plant Health Agency ([APHA](https://www.gov.uk/government/organisations/animal-and-plant-health-agency)), United Kingdom
+* The University of Surrey ([UoS](https://www.surrey.ac.uk/)), United Kingdom
 * The Istituto Zooprofilattico Sperimentale dell'Abruzzo e del Molise "Giuseppe Caporale" ([IZSAM](https://www.izs.it/IZS/Engine/RAServePG.php)), Italy
 * The National Veterinary Research Institute ([PIWET](http://www.piwet.pulawy.pl/)), Poland
+* The Instituto Nacional de Saúde Doutor Ricardo Jorge ([INSA](http://www.insa.min-saude.pt/)), Portugal
 * The Public Health Agency of Sweden ([FoHM](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/))
+* The National Institute for Public Health and the Environment ([RIVM](https://www.rivm.nl/en)), The Netherlands
 * The Finnish Food Authority ([RUOKA](https://www.ruokavirasto.fi/en/))
 
 
