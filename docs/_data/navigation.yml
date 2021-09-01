@@ -7,7 +7,9 @@ main:
    url: data.md
  - title: "Dashboard Design and Technology"
    url: design.md
- - title: "Resources and Examples"
+ - title: "Dashboard Examples"
    url: examples.md
+ - title: "Resources"
+   url: resources.md
  - title: "Contact"
    url: contact.md
