@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Practical Dashboard Examples"
+nav_order: 5
+---
+
 # Practical Dashboard Examples
 
 Found in here are practical examples of OHS dashboards, from all the countries participating in MATRIX WP6.

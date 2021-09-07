@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Contact"
+nav_order: 7
+---
+
 # Contact
 
 ## MATRIX
