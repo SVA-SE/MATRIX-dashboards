@@ -6,7 +6,6 @@ url: "https://sva-se.github.io/MATRIX-dashboards/"
 baseurl: "MATRIX-dashboards"
 description: An inventory of dashboard development for One Health disease surveillance.
 remote_theme: pmarsceill/just-the-docs
-theme: "just-the-docs"
 permalink: pretty
 
 search_enabled: true
