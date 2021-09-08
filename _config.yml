@@ -2,8 +2,8 @@ title: MATRIX Dashboards
 subtitle: "Decision and Collaboration Dashboards: an Inventory"
 name: "Wiktor Gustafsson"
 repository: "sva-se/matrix-dashboards"
-url: "https://sva-se.github.io/"
-baseurl: "MATRIX-dashboards"
+url: "https://sva-se.github.io"
+baseurl: "/MATRIX-dashboards"
 description: An inventory of dashboard development for One Health disease surveillance.
 remote_theme: pmarsceill/just-the-docs
 permalink: pretty
