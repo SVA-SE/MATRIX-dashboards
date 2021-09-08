@@ -3,6 +3,7 @@ subtitle: "Decision and Collaboration Dashboards: an Inventory"
 name: "Wiktor Gustafsson"
 repository: "sva-se/matrix-dashboards"
 url: "https://sva-se.github.io/MATRIX-dashboards/"
+baseurl: "/docs"
 description: An inventory of dashboard development for One Health disease surveillance.
 remote_theme: pmarsceill/just-the-docs
 permalink: pretty
@@ -21,12 +22,6 @@ back_to_top_text: "Back to top"
 
 last_edit_timestamp: true
 last_edit_time_format: "%Y-%m-%d at %H-%M-%S"
-
-gh_edit_link: true
-gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/sva-se/MATRIX-dashboards" # the github URL for your repo
-gh_edit_branch: "master" # the branch that your docs is served from
-gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 heading_anchors: true
 
