@@ -17,13 +17,18 @@ These people have agreed to act as expert contacts in their specified fields of 
 
 ## External Resources
 
+### The One Health EJP Glossary
+https://foodrisklabs.bfr.bund.de/ohejp-glossary/
+
+The OHEJP Glossary is a cross-sectoral community and expert driven glossary, created jointly by the three OHEJP projects [ORION](https://onehealthejp.eu/jip-orion/), [NOVA](https://onehealthejp.eu/jrp-nova/) and [COHESIVE](https://onehealthejp.eu/jip-cohesive/). It covers terms in all the sectors of One Health.
+
 ### The One Health EJP Outcome Inventory
-[https://onehealthejp.eu/outcome-inventory/](https://onehealthejp.eu/outcome-inventory/)
+https://onehealthejp.eu/outcome-inventory/
 
 The One Health EJP Outcome Inventory (OHOI) is a public database of outcomes and results from all One Health EJP projects.
 
 ### The One Health Surveillance Codex
-[https://oh-surveillance-codex.readthedocs.io/en/latest/](https://oh-surveillance-codex.readthedocs.io/en/latest/)
+https://oh-surveillance-codex.readthedocs.io/en/latest/
 
 The One Health Surveillance Codex is described as follows (Filter et al, [2021](https://www.sciencedirect.com/science/article/pii/S2352771421000239)):
 
