@@ -28,4 +28,17 @@ Found in here are practical examples of OHS dashboards, from all the countries p
 
 ## Sweden
 
+[Surveillance of infectious diseases in animals and humans](https://www.sva.se/amnesomraden/smittlage/surveillance-rapporten-om-sva-s-overvakning/) ("the surveillance report") is the annual report describing the surveillance activities carried out in Sweden during the year. The report covers surveillance for important animal diseases and zoonotic agents in humans, food, feed and animals, carried out and compiled by experts from several Swedish governmental agencies, university and private industry with surveillance mandates along the entire food chain, from farm to fork. The surveillance report is published by the National Veterinary Institute (SVA), in collaboration with the Swedish Board of Agriculture, the Public Health Agency and the Swedish Food Agency.
+
+To better highlight the important findings presented in the report, and to strengthen the "one health-ness" of the surveillance, SVA is now planning to translate the zoonotic chapters into a web-based interactive experience. This gives an opportunity to display data in greater detail and to more dynamically follow the disease situation over time.
+
+### Data
+The data presented in these zoonotic dashboards will be manually curated by surveillance experts on each specific disease agent. The data are summarised and presented temporally (time series) and/or spatially (maps).
+
+### Layout
+Due to the static and curated nature of the data, and the great detail with which the surveillance is described in the original report, the dashboard will be designed in the style of "story maps" where the interactive elements are accompanied by a text-based story which gives the graphs, maps and tables a context. Examples of this style can be found in the [vector-borne disease journals](https://efsa.maps.arcgis.com/apps/PublicGallery/index.html?appid=dfbeac92aea944599ed1eb754aa5e6d1) published by the European Food Safety Agency (EFSA).
+
+### Technical implementation
+The dashboard will be developed using a combination of R, JavaScript and CSS. An in-house R package has been developed to produce static graphs maps and tables for the surveillance report; this will be adapted so that it can also be used to create dynamic JavaScript-powered HTML widgets, something which is easily achievable without leaving the R environment. To increase the level of customisation and to make the content look like an SVA product, a layer of custom JavaScript and CSS will be added on top of the R-generated content. The content will then be brought together into a full web application using the R Shiny package. The app will be hosted on an internal virtual server and made publicly available on the Internet.
+
 ## United Kingdom
