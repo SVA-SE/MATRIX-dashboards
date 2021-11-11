@@ -26,6 +26,14 @@ Found in here are practical examples of OHS dashboards, from all the countries p
 
 ## Portugal
 
+Considering the One Health concept there is not any report which includes human, animal and environmental health. However, there are reports for human and animal health separately. 
+
+Regarding the human health reports, they are annually published by the General Directorate of Health ([DGS](https://www.dgs.pt/)) and are related to viral hepatitis, tuberculosis and prevention and control of infections and antimicrobial resistance. 
+
+Concerning the animal health reports, they are annually published by the General Directorate of Food and Veterinary ([DGAV](https://www.dgav.pt/)) and are related to some zoonoses that affect the animals in Portugal, such as bovine tuberculosis, bovine brucellosis, salmonella, among others. 
+
+At this moment, a dashboard that includes animal and human health is not planned. 
+
 ## Sweden
 
 [Surveillance of infectious diseases in animals and humans](https://www.sva.se/amnesomraden/smittlage/surveillance-rapporten-om-sva-s-overvakning/) ("the surveillance report") is the annual report describing the surveillance activities carried out in Sweden during the year. The report covers surveillance for important animal diseases and zoonotic agents in humans, food, feed and animals, carried out and compiled by experts from several Swedish governmental agencies, university and private industry with surveillance mandates along the entire food chain, from farm to fork. The surveillance report is published by the National Veterinary Institute (SVA), in collaboration with the Swedish Board of Agriculture, the Public Health Agency and the Swedish Food Agency.
