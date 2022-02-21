@@ -6,7 +6,7 @@ nav_order: 1
 
 # Decision and Collaboration Dashboards: an Inventory
 
-This website serves as information centre and inventory for the development of interactive dashboards for One Health disease surveillance in Europe. It was produced within Work Package 6 (WP6) of the [MATRIX](https://onehealthejp.eu/jip-matrix/) project. MATRIX is part of [the One Health European Joint Programme (EJP)](https://onehealthejp.eu/), a partnership between 44 food, veterinary and medical laboratories and institutes across 22 European nations.
+This website serves as information centre and inventory for the development of interactive dashboards for One Health disease surveillance in Europe. It was produced within Work Package 6 (WP6) of the [MATRIX](https://onehealthejp.eu/jip-matrix/) project. MATRIX is part of [the One Health European Joint Programme (EJP)](https://onehealthejp.eu/), a partnership between 44 food, veterinary and medical laboratories and institutes across 22 European nations and the [Med-Vet-Net Association](https://www.mvnassociation.org/).
 
 One Health Surveillance (OHS) is the combination of health surveillance data and knowledge from the three health sectors &mdash; public health (PH), animal health (AH) and food safety (FS) &mdash; in order to understand how the health of humans, animals and the environment are connected and affect each other.
 
