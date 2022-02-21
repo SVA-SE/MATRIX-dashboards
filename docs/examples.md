@@ -33,6 +33,17 @@ The GENPAT platform is derived from the OHEJP COHESIVE project results. In parti
 
 ## Norway
 
+The Sykdomspulsen One Health website is a pilot project for the surveillance of Campylobacter infections in Norway. It is a collaboration between the Norwegian Institute of Public Health, the Norwegian Veterinary Institute and the Norwegian Food Safety Authorities. It is currently a closed website.
+
+### Data
+We are using doctor’s consultation symptomatic data, Campylobacter tests of broiler flocks and weather data to forecast potential gastro-intestinal outbreaks in humans. Every week, all data is being automatically retrieved, cleaned, analysed and displayed as graphs and maps on the website. The testing of broiler flocks started in 2006 and runs every year from May to October. More information is available in a poster presented at the University of Oslo for the 2021 One Health in the 21st century conference ([see page 3](https://www.med.uio.no/helsam/english/research/centres/global-health/news-and-events/events/2021/posters-webpage.pdf)).
+
+### Layout
+The website is structured in a traditional way, with a navigation bar at the top of the page, and a set of tabs and subtabs to structure information. There are different sections for gastro-intestinal diseases in Norway, Campylobacter-specific surveillance, general information on One Health, and a glossary based on the OneHealth ORION Glossary. Data and forecasts are being displayed as interactive graphs and maps where the user can choose the time frame and geographical area of their choice.
+
+### Implementation
+The website is developed entirely with Shiny, a library of web development for the statistical software R. Additionally, we wrote a custom stylesheet in CSS to improve visual appeal and user-friendliness. Graphs and maps make use of some specific R libraries (leaflet, fhimaps, fhiplot, ggplot2). The automatization of data flow is handled by Sykdomspulsen Analytics, which is an implementation of the generic Sykdomspulsen Core framework (available in the form of an open-source R package). It requires a linux server, a database, and a set of container images (i.e. lightweight virtual machines). More information can be found [here](https://docs.sykdomspulsen.no/)
+
 ## Poland
 
 ## Portugal
