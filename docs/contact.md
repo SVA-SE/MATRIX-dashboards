@@ -6,6 +6,12 @@ nav_order: 7
 
 # Contact
 
+## Country Dashboard Experts
+A list of persons with knowledge about dashboard development within the participant countries of MATRIX.
+
+### Sweden
+Wiktor Gustafsson, SVA ([wiktor.gustafsson@sva.se](mailto:wiktor.gustafsson@sva.se))
+
 ## MATRIX
 
 Leader: Guido Benedetti, SSI ([gube@ssi.dk](mailto:gube@ssi.dk))

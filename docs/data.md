@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Data and Workflows"
-nav_order: 3
+nav_order: 2
 ---
 
 # Co-analysing One Health Data: Considerations, pitfalls and biases

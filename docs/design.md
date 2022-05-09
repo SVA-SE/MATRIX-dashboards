@@ -1,5 +1,5 @@
 ---
 layout: default
 title: "Dashboard Design and Technology"
-nav_order: 4
+nav_order: 3
 ---
