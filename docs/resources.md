@@ -30,6 +30,7 @@ These people have agreed to act as expert contacts in their specified fields of 
 | --------------- | --------- | -------------------------------------------------------------------------- | --------------------------------------------------- |
 | Joaquin Prada   | UoS       | Mathematical Modelling / Data Analysis                                     | [j.prada@surrey.ac.uk](mailto:j.prada@surrey.ac.uk) |
 | Guido Benedetti | SSI       | Operational research / Public health surveillance in low-resource settings | [gube@ssi.dk](mailto:gube@ssi.dk)                   |
+| Clemence KOREN  | FHI       | UI/UX and visual design                                                    | [clemence.koren@fhi.no](mailto:clemence.koren@fhi.no)|
 
 ## External Resources
 
