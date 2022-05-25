@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Practical Dashboard Examples"
-nav_order: 4
+nav_order: 5
 toc: true
 ---
 

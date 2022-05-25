@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Dashboard Design and Technology"
+title: "Dashboard Development Solutions"
 nav_order: 3
 ---
 
