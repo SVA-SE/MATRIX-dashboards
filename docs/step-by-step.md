@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Building a One Health Surveillance Dashboard: Step-by-step"
-nav_order: 4
+nav_order: 2
 ---
 
 # Dashboard Glossary
