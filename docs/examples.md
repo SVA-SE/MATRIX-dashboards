@@ -9,7 +9,7 @@ toc: true
 
 Found in here are practical "real-world" examples of OHS dashboards and tools, developed by members of the MATRIX project.
 
-## GENPAT (IZS)
+## GENPAT (IZS, Italy)
 The “National Reference Centre for Whole Genome Sequencing of microbial pathogens: database and bioinformatic analysis” ([GENPAT](https://www.izs.it/IZS/Centres_of_excellence/National_Centres/National_Reference_Centre_for_Whole_Genome_Sequencing_of_microbial_pathogens_database_and_bioinformatic_analysis)) manages, on behalf of the Italian Ministry of Health, a national platform for collection and sharing of microbial pathogen WGS data from animal, food and environmental isolates and for performing bioinformatic analyses.
 
 The platform supports and assists the Italian Ministry of Health and competent authorities in technical and scientific claims, providing IT tools and data that are quickly available, usable and helpful in outbreak situations allowing to link molecular typing and bioinformatics analyses results with time and position of sampling as well as the other epidemiological information available. The system is a web-based information system with three main components:
@@ -20,7 +20,15 @@ The platform supports and assists the Italian Ministry of Health and competent a
 
 The GENPAT platform is derived from the OHEJP COHESIVE project results. In particular, it extends the CIS (COHESIVE Information System) for Italian needs. The system has been also used in the national project of the "Italian One-Health JointDB" where a pilot has been conducted on Listeria monocytogenes to integrate data from ISS (storing isolates from human clinical cases) and GENPAT (storing animal, food and environmental isolates) using a mechanism based on federated servers.
 
-## Sykdomspulsen (NIPH, NVI)
+## OH-EpiCap dashboard (ANSES, Fance & UoS, UK)
+
+To be reported.
+
+## RESAPATH online (ANSES, France)
+
+To be reported.
+
+## Sykdomspulsen (NIPH & NVI, Norway)
 
 The Sykdomspulsen One Health website is a pilot project for the surveillance of Campylobacter infections in Norway. It is a collaboration between the Norwegian Institute of Public Health, the Norwegian Veterinary Institute and the Norwegian Food Safety Authorities. It is currently a closed website.
 
@@ -32,6 +40,26 @@ The website is structured in a traditional way, with a navigation bar at the top
 
 ### Implementation
 The website is developed entirely with Shiny, a library of web development for the statistical software R. Additionally, we wrote a custom stylesheet in CSS to improve visual appeal and user-friendliness. Graphs and maps make use of some specific R libraries (leaflet, fhimaps, fhiplot, ggplot2). The automatization of data flow is handled by Sykdomspulsen Analytics, which is an implementation of the generic Sykdomspulsen Core framework (available in the form of an open-source R package). It requires a linux server, a database, and a set of container images (i.e. lightweight virtual machines). More information can be found [here](https://docs.sykdomspulsen.no/).
+
+## Denmark
+
+No dashboard to report.
+
+## Finland
+
+No dashboard reported as of yet.
+
+## Germany
+
+No dashboard reported as of yet.
+
+## Netherlands
+
+No dashboard reported as of yet.
+
+## Poland
+
+No dashboard reported as of yet.
 
 ## Portugal
 
