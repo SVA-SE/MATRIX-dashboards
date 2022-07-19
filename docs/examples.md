@@ -9,6 +9,33 @@ toc: true
 
 Found in here are practical "real-world" examples of OHS dashboards and tools, developed by members of the MATRIX project.
 
+## Disease Dashboards (SVA, Sweden)
+
+[Surveillance of infectious diseases in animals and humans](https://www.sva.se/amnesomraden/smittlage/surveillance-rapporten-om-sva-s-overvakning/) ("the surveillance report") is the annual report describing the surveillance activities carried out in Sweden during the year. The report covers surveillance for important animal diseases and zoonotic agents in humans, food, feed and animals, carried out and compiled by experts from several Swedish governmental agencies, university and private industry with surveillance mandates along the entire food chain, from farm to fork. The surveillance report is published by the National Veterinary Institute (SVA), in collaboration with the Swedish Board of Agriculture, the Public Health Agency and the Swedish Food Agency.
+
+To better highlight the important findings presented in the report, and to strengthen the "one health-ness" of the surveillance, SVA is now planning to translate the zoonotic chapters into a web-based interactive experience. This gives an opportunity to display data in greater detail and to more dynamically follow the disease situation over time.
+
+### Data
+The data presented in these zoonotic dashboards will be manually curated by surveillance experts on each specific disease agent. The data are summarised and presented temporally (time series) and/or spatially (maps).
+
+### Layout
+Due to the static and curated nature of the data, and the great detail with which the surveillance is described in the original report, the dashboard will be designed in the style of "story maps" where the interactive elements are accompanied by a text-based story which gives the graphs, maps and tables a context. Examples of this layout style can be found in the [Animal disease profiles]https://animal-diseases.efsa.europa.eu/) published by the European Food Safety Agency (EFSA).
+
+### Technical implementation
+The dashboard will be developed using a combination of R, JavaScript and CSS. An in-house R package has been developed to produce static graphs maps and tables for the surveillance report; this will be adapted so that it can also be used to create dynamic JavaScript-powered HTML widgets, something which is easily achievable without leaving the R environment. For greater customisation of design and behaviour, a layer of custom JavaScript and CSS will be added on top of the R-generated content. The content will then be brought together into a full web application using the [R Shiny](https://shiny.rstudio.com/) package. The app will be hosted on an internal virtual server and made publicly available on the Internet.
+
+## FoodChain-Lab (BfR, Germany)
+FoodChain-Lab (FCL) is a free and open-source software tool aimed to support trace-back and trace-forward analysis of implicated feed or food items along supply chains as well as exposure and risk assessments in foodborne incidents (outbreaks, chemical contaminations).
+Implementation: 
+The desktop version of FCL has been implemented as a modular extension to the open source data analytics platform Konstanz Information Miner (KNIME). KNIME enables visual assembly of data analysis workflows. These workflows consist of so-called nodes and edges. Each node is able to perform a specific data processing task while edges define how information flow is directed between nodes. FCL is also available as a web application (FCL Web, https://fcl-portal.bfr.berlin).
+
+### Data
+FCL Desktop collects and imports data into an internal database by generating semi-filled Excel templates that can be sent to local authorities for data completion and afterwards be imported into the database, or through a direct interface to the database for manual data input. Once the data is transferred into the database it can be validated and updated. FCL Web uses a JSON-based data format and is fed with data from FCL Desktop or other food tracing software systems.
+
+### Layout
+A major application of FCL Desktop and FCL Web is the analysis and visualization of food tracing information. This is accomplished by the construction and visualization of interactive food chain network graphs consisting of nodes (stations such as food business operators or disease cases) and edges (food product transportation events, deliveries). A score calculated for all stations and deliveries helps to identify the source of a foodborne contamination and prioritize next investigation steps. All visualizations are interactive and can be exported as data tables or images for use in other KNIME nodes, other tools or in reports. Detailed description of FCL is available at https://foodrisklabs.bfr.bund.de.
+
+
 ## GENPAT (IZS, Italy)
 The “National Reference Centre for Whole Genome Sequencing of microbial pathogens: database and bioinformatic analysis” ([GENPAT](https://www.izs.it/IZS/Centres_of_excellence/National_Centres/National_Reference_Centre_for_Whole_Genome_Sequencing_of_microbial_pathogens_database_and_bioinformatic_analysis)) manages, on behalf of the Italian Ministry of Health, a national platform for collection and sharing of microbial pathogen WGS data from animal, food and environmental isolates and for performing bioinformatic analyses.
 
@@ -70,18 +97,3 @@ Regarding the human health reports, they are annually published by the General D
 Concerning the animal health reports, they are annually published by the General Directorate of Food and Veterinary ([DGAV](https://www.dgav.pt/)) and are related to some zoonoses that affect the animals in Portugal, such as bovine tuberculosis, bovine brucellosis, salmonella, among others. 
 
 At this moment, a dashboard that includes animal and human health is not planned. 
-
-## Sweden
-
-[Surveillance of infectious diseases in animals and humans](https://www.sva.se/amnesomraden/smittlage/surveillance-rapporten-om-sva-s-overvakning/) ("the surveillance report") is the annual report describing the surveillance activities carried out in Sweden during the year. The report covers surveillance for important animal diseases and zoonotic agents in humans, food, feed and animals, carried out and compiled by experts from several Swedish governmental agencies, university and private industry with surveillance mandates along the entire food chain, from farm to fork. The surveillance report is published by the National Veterinary Institute (SVA), in collaboration with the Swedish Board of Agriculture, the Public Health Agency and the Swedish Food Agency.
-
-To better highlight the important findings presented in the report, and to strengthen the "one health-ness" of the surveillance, SVA is now planning to translate the zoonotic chapters into a web-based interactive experience. This gives an opportunity to display data in greater detail and to more dynamically follow the disease situation over time.
-
-### Data
-The data presented in these zoonotic dashboards will be manually curated by surveillance experts on each specific disease agent. The data are summarised and presented temporally (time series) and/or spatially (maps).
-
-### Layout
-Due to the static and curated nature of the data, and the great detail with which the surveillance is described in the original report, the dashboard will be designed in the style of "story maps" where the interactive elements are accompanied by a text-based story which gives the graphs, maps and tables a context. Examples of this layout style can be found in the [Animal disease profiles]https://animal-diseases.efsa.europa.eu/) published by the European Food Safety Agency (EFSA).
-
-### Technical implementation
-The dashboard will be developed using a combination of R, JavaScript and CSS. An in-house R package has been developed to produce static graphs maps and tables for the surveillance report; this will be adapted so that it can also be used to create dynamic JavaScript-powered HTML widgets, something which is easily achievable without leaving the R environment. For greater customisation of design and behaviour, a layer of custom JavaScript and CSS will be added on top of the R-generated content. The content will then be brought together into a full web application using the [R Shiny](https://shiny.rstudio.com/) package. The app will be hosted on an internal virtual server and made publicly available on the Internet.
