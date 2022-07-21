@@ -13,24 +13,19 @@ Work Package 6 arranges monthly meetings in which members have an opportunity to
 
 In the table below are all the meetings that have been held or planned as of yet:
 
-| Date       | Meeting type                      | Presenters                           | Topic                                                                                             | Resource links                                                                                                                       |
-| ---------- | --------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| 2021-11-25 | Presentation                      | David Swanson (NIPH)                 | One Health Forecasting of gastrointestinal illness with Campylobacter broiler farm surveillance   |
-| 2021-10-28 | Discussion/workshop               |                                      | Co-analysing One Health data: considerations, pitfalls and biases                                 |
-| 2021-09-23 | Presentation                      | Clémence Koren (NIPH)                | Designing a One Health website - Tips for user-friendliness and visual appeal                     | https://svasweden-my.sharepoint.com/:b:/g/personal/fernanda\_dorea\_sva\_se/EbuNWg5Xul9IuJuHtbzglckBnWzNpj6XVYf6nWV8jIFtmg?e=kS5XEc  |
-| 2021-06-23 | Presentation                      | Taras Günther, Matthias Filter (BfR) | Making linked data accessible for One Health Surveillance with the One Health Linked Data Toolbox | https://svasweden-my.sharepoint.com/:p:/g/personal/fernanda\_dorea\_sva\_se/EQnWsnYRrZdMgBCO7he5\_swB78zmQ8MoaAPgRFJLWPT8nA?e=7IUu7c |
-| 2021-04-28 | Presentation, discussion/workshop | Wiktor Gustafsson (SVA)              | Possible activities for outreach, dashboard platform discussion                                   | https://svasweden-my.sharepoint.com/:p:/g/personal/fernanda\_dorea\_sva\_se/EU1LpCaUrABKq0aXL1iiwIsBMrGw683SMjes5JtEeDtObw?e=wVdJxA  |
-| 2021-03-25 | Presentation                      | Gry Grøneng, Richard White (NIPH)    | Presentation of Norwegian One Health website Sykdomspulsen                                        | https://svasweden-my.sharepoint.com/:p:/g/personal/fernanda\_dorea\_sva\_se/ETlvLH3TTk5OqAZk8PQA5L4BA2Gobr12fvXiv9Sk0CyxQQ?e=HbqqYV  |
-| 2021-03-03 | Presentation                      | Wiktor Gustafsson (SVA)              | Introduction to WP6 and preparation for the full consortium meeting                               | https://svasweden-my.sharepoint.com/:p:/g/personal/fernanda\_dorea\_sva\_se/ESSeT5PQCqtIh7mLcE4uCKQBmA0u1JFkD\_JkSfF1Xa0CSA?e=3oWQwf |
-
-### Dashboard Development Expert List
-These people have agreed to act as expert contacts in their specified fields of expertise related to the development of OHS dashboards:
-
-| Name            | Institute | Area of expertise/contribution                                             | Email address                                       |
-| --------------- | --------- | -------------------------------------------------------------------------- | --------------------------------------------------- |
-| Joaquin Prada   | UoS       | Mathematical Modelling / Data Analysis                                     | [j.prada@surrey.ac.uk](mailto:j.prada@surrey.ac.uk) |
-| Guido Benedetti | SSI       | Operational research / Public health surveillance in low-resource settings | [gube@ssi.dk](mailto:gube@ssi.dk)                   |
-| Clemence KOREN  | FHI       | UI/UX and visual design                                                    | [clemence.koren@fhi.no](mailto:clemence.koren@fhi.no)|
+| Presenters                           | Topic                                                                                             | Resource links                                                                                                                       |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Wiktor Gustafsson (SVA)              | Presentation of Swedish annual disease surveillance report workflow and dashboards                | https://svasweden-my.sharepoint.com/:p:/g/personal/fernanda\_dorea\_sva\_se/ETP3byvt4lJLplUYN\_eVRHcBrbXwFoSlqeKYjAcciZ5STw          |
+|                                      | Planning the work with the WP6 deliverables                                                       |                                                                                                                                      |
+| Emily Dibba White (SSI)              | The work behind the Danish COVID-19 dashboard                                                     | https://svasweden-my.sharepoint.com/:p:/g/personal/fernanda\_dorea\_sva\_se/EWuYKUWnJX9KrQ\_uEcPLeI8BpiwLd9OcMySIFb11-UpCqA?e=5j4ZoS |
+| Adriano Di Pasquale (IZS)            | The COHESIVE Information System                                                                   | https://svasweden-my.sharepoint.com/:p:/g/personal/fernanda\_dorea\_sva\_se/EQO3yX1dzYFIlnI9jvHe4ccBKwniT8WCicyjw8DiLbqDxw?e=KgwnUD  |
+| David Swanson (NIPH)                 | One Health Forecasting of gastrointestinal illness with Campylobacter broiler farm surveillance   |                                                                                                                                      |
+|                                      | Co-analysing One Health data: considerations, pitfalls and biases                                 | https://svasweden-my.sharepoint.com/:w:/g/personal/fernanda\_dorea\_sva\_se/EWhijTSAH09Au\_SvdwHxTEIBJ-DuRdN7mz8RSUvLwqgWpg?e=0LV9ro |
+| Clémence Koren (NIPH)                | Designing a One Health website - Tips for user-friendliness and visual appeal                     | https://svasweden-my.sharepoint.com/:b:/g/personal/fernanda\_dorea\_sva\_se/EbuNWg5Xul9IuJuHtbzglckBnWzNpj6XVYf6nWV8jIFtmg?e=kS5XEc  |
+| Taras Günther, Matthias Filter (BfR) | Making linked data accessible for One Health Surveillance with the One Health Linked Data Toolbox | https://svasweden-my.sharepoint.com/:p:/g/personal/fernanda\_dorea\_sva\_se/EQnWsnYRrZdMgBCO7he5\_swB78zmQ8MoaAPgRFJLWPT8nA?e=7IUu7c |
+| Wiktor Gustafsson (SVA)              | Possible activities for outreach, dashboard platform discussion                                   | https://svasweden-my.sharepoint.com/:p:/g/personal/fernanda\_dorea\_sva\_se/EU1LpCaUrABKq0aXL1iiwIsBMrGw683SMjes5JtEeDtObw?e=wVdJxA  |
+| Gry Grøneng, Richard White (NIPH)    | Presentation of Norwegian One Health website Sykdomspulsen                                        | https://svasweden-my.sharepoint.com/:p:/g/personal/fernanda\_dorea\_sva\_se/ETlvLH3TTk5OqAZk8PQA5L4BA2Gobr12fvXiv9Sk0CyxQQ?e=HbqqYV  |
+| Wiktor Gustafsson (SVA)              | Introduction to WP6 and preparation for the full consortium meeting                               | https://svasweden-my.sharepoint.com/:p:/g/personal/fernanda\_dorea\_sva\_se/ESSeT5PQCqtIh7mLcE4uCKQBmA0u1JFkD\_JkSfF1Xa0CSA?e=3oWQwf |
 
 ## External Resources
 
