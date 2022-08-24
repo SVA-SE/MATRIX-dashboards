@@ -9,6 +9,9 @@ nav_order: 9
 ## Country Dashboard Experts
 A list of persons with knowledge about dashboard development within the participant countries of MATRIX.
 
+### France
+France, Géraldine Cazeau, ANSES ([geraldine.cazeau@anses.fr](mailto:geraldine.cazeau@anses.fr))
+
 ### Sweden
 Wiktor Gustafsson, SVA ([wiktor.gustafsson@sva.se](mailto:wiktor.gustafsson@sva.se))
 
