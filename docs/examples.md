@@ -58,7 +58,22 @@ To be reported.
 
 ## RESAPATH online (ANSES, France)
 
-To be reported.
+The RESAPATH is the French network for surveillance of antimicrobial resistance (AMR) in bacterial pathogens isolated from diseased animals. It monitors AMR rates and trends in France.
+
+### Data
+
+Data collected include all the results of antibiotic susceptibility tests carried out by RESAPATH member laboratories at the request of practicing veterinarians in the context of their health care activities.
+Resapath data are freely accessible via an interactive open-access web English interface: https://shiny-public.anses.fr/ENresapath2/.
+
+### Layout & implementation
+
+This dashboard, updated once a year in the fall, was designed with R Shiny (a library of web development for the statistical software R). A custom stylesheet in CSS was developed to improve visual appeal. Graphs were created using specific R libraries (ggplot2, plotly). 
+This interface allows the visualization of results by selecting different combinations of interest (year/animal species/bacteria/pathology/antibiotic). Data are presented through three tabs: 
+
+- General data: number of antibiograms;
+- Antimicrobial susceptibility tables: proportion of susceptible strains;
+- Trends: curves of temporal evolution of the proportions of susceptible isolates with their 95% confidence intervals.
+All graphs are downloadable as images along with their associated data in Excel© format.
 
 ## Sykdomspulsen (NIPH & NVI, Norway)
 
