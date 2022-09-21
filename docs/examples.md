@@ -52,7 +52,7 @@ The platform supports and assists the Italian Ministry of Health and competent a
 
 The GENPAT platform is derived from the OHEJP COHESIVE project results. In particular, it extends the CIS (COHESIVE Information System) for Italian needs. The system has been also used in the national project of the "Italian One-Health JointDB" where a pilot has been conducted on Listeria monocytogenes to integrate data from ISS (storing isolates from human clinical cases) and GENPAT (storing animal, food and environmental isolates) using a mechanism based on federated servers.
 
-## OH-EpiCap dashboard (ANSES, Fance & UoS, UK)
+## OH-EpiCap tool (ANSES, France & UoS, UK)
 
 To be reported.
 
