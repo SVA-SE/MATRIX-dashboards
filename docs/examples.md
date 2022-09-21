@@ -75,7 +75,7 @@ This interface allows the visualization of results by selecting different combin
 - Trends: curves of temporal evolution of the proportions of susceptible isolates with their 95% confidence intervals.
 All graphs are downloadable as images along with their associated data in Excel© format.
 
-## Sykdomspulsen (NIPH & NVI, Norway)
+## Sykdomspulsen One Health (NIPH & NVI, Norway)
 
 The Sykdomspulsen One Health website is a pilot project for the surveillance of Campylobacter infections in Norway. It is a collaboration between the Norwegian Institute of Public Health, the Norwegian Veterinary Institute and the Norwegian Food Safety Authorities. It is currently a closed website.
 
@@ -96,7 +96,7 @@ No dashboard to report.
 
 No dashboard reported as of yet.
 
-## Germany
+## FLI, Germany
 
 No dashboard reported as of yet.
 
