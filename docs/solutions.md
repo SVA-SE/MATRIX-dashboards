@@ -4,7 +4,7 @@ title: "Technical Development Solutions"
 nav_order: 5
 ---
 
-# Dashboard Development Solutions
+# Technical Development Solutions
 
 _TODO: summary of technical solutions (R Shiny, ArcGIS, ...), pros and cons of each, skills needed, etc..._
 
