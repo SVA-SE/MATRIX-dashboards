@@ -9,6 +9,10 @@ nav_order: 1
 <br>
 
 # Dashboard Information Centre: <br> A practical manual for One Health Surveillance Dashboards
+{: .no_toc }
+
+1. Contents
+{:toc}
 
 This website serves as an information centre and practical manual for the development of interactive dashboards for One Health disease surveillance in Europe, and an inventory of existing dashboards. It was produced within Work Package 6 (WP6) of the [MATRIX](https://onehealthejp.eu/jip-matrix/) project. MATRIX is part of [the One Health European Joint Programme (EJP)](https://onehealthejp.eu/), a partnership between 44 food, veterinary and medical laboratories and institutes across 22 European nations and the [Med-Vet-Net Association](https://www.mvnassociation.org/).
 

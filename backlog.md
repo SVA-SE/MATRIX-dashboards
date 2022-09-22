@@ -1,5 +1,3 @@
--	Germany in the list of Dashboard examples should specify that it is FLI (BfR already have included a dashboard example)
--	Table of content in the top of all pages
 -	Contact list: Put MATRIX on top, then WP6, Then contact list: Add more people in the list
 -	Contact list: Make table and update with people
 -	Resources list is not as a link

@@ -5,6 +5,10 @@ nav_order: 8
 ---
 
 # Resources
+{: .no_toc }
+
+1. Contents
+{:toc}
 
 ## MATRIX Resources
 

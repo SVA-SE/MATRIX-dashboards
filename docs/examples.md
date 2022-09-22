@@ -6,6 +6,10 @@ toc: true
 ---
 
 # Practical Dashboard Examples
+{: .no_toc }
+
+1. Contents
+{:toc}
 
 Found in here are practical "real-world" examples of OHS dashboards and tools, developed by members of the MATRIX project.
 
