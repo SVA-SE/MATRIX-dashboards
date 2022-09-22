@@ -7,8 +7,10 @@ nav_order: 3
 # Co-analysing One Health Data: Considerations, pitfalls and biases
 {: .no_toc }
 
+<p>
 1. Contents
 {:toc}
+</p>
 
 One Health Surveillance brings together data from multiple sources and sectors (public health, animal health, food safety, environment) to analyse them together in a common context. In this co-analysis it is important to consider some potential pitfalls and sources of bias that could arise from the great diversity that exists in One Health data, and which should be considered when performing data analysis and presentation. 
 
