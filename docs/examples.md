@@ -8,8 +8,14 @@ toc: true
 # Practical Dashboard Examples
 {: .no_toc }
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. Contents
 {:toc}
+</details>
 
 Found in here are practical "real-world" examples of OHS dashboards and tools, developed by members of the MATRIX project.
 

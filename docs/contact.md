@@ -7,8 +7,14 @@ nav_order: 9
 # Contact
 {: .no_toc }
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. Contents
 {:toc}
+</details>
 
 ## Country Dashboard Experts
 A list of persons with knowledge about dashboard development within the participant countries of MATRIX.

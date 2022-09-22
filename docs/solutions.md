@@ -7,8 +7,14 @@ nav_order: 5
 # Technical Development Solutions
 {: .no_toc }
 
-1. Contents
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
 {:toc}
+</details>
 
 _TODO: summary of technical solutions (R Shiny, ArcGIS, ...), pros and cons of each, skills needed, etc..._
 
