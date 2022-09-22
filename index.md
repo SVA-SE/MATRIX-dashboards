@@ -13,7 +13,7 @@ nav_order: 1
 
 <details open markdown="block">
   <summary>
-    Table of contents
+    Contents
   </summary>
   {: .text-delta }
 1. Contents
