@@ -7,10 +7,8 @@ nav_order: 5
 # Technical Development Solutions
 {: .no_toc }
 
-<p>
 1. Contents
 {:toc}
-</p>
 
 _TODO: summary of technical solutions (R Shiny, ArcGIS, ...), pros and cons of each, skills needed, etc..._
 

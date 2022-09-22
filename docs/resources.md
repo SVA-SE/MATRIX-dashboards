@@ -7,10 +7,8 @@ nav_order: 8
 # Resources
 {: .no_toc }
 
-<p>
 1. Contents
 {:toc}
-</p>
 
 ## MATRIX Resources
 

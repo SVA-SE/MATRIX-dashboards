@@ -7,10 +7,8 @@ nav_order: 9
 # Contact
 {: .no_toc }
 
-<p>
 1. Contents
 {:toc}
-</p>
 
 ## Country Dashboard Experts
 A list of persons with knowledge about dashboard development within the participant countries of MATRIX.

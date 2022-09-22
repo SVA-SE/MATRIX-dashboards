@@ -7,7 +7,5 @@ nav_order: 2
 # Building an OHS Dashboard: Step-by-step
 {: .no_toc }
 
-<p>
 1. Contents
 {:toc}
-</p>
