@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Technical Development Solutions"
+title: "Technical Solutions"
 nav_order: 5
 ---
 
-# Technical Development Solutions
+# Technical Solutions
 {: .no_toc }
 
 <details open markdown="block">

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Dashboard Design Considerations"
+title: "Design Considerations"
 nav_order: 4
 ---
 
-# Dashboard Design Considerations
+# Design Considerations
 {: .no_toc }
 
 <details open markdown="block">

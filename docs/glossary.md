@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Dashboard Glossary"
+title: "Glossary"
 nav_order: 7
 ---
 

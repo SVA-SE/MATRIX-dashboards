@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Building a One Health Surveillance Dashboard: Step-by-step"
+title: "Step-by-Step Guide"
 nav_order: 2
 ---
 
-# Building an OHS Dashboard: Step-by-step
+# Step-by-Step Guide to Building an OHS Dashboard
 {: .no_toc }
 
 <details open markdown="block">

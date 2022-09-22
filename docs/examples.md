@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Practical Dashboard Examples"
+title: "Practical Examples"
 nav_order: 6
 toc: true
 ---
 
-# Practical Dashboard Examples
+# Practical Examples of Dashboards and Tools
 {: .no_toc }
 
 <details open markdown="block">
@@ -17,7 +17,7 @@ toc: true
 {:toc}
 </details>
 
-Found in here are practical "real-world" examples of OHS dashboards and tools, developed by members of the MATRIX project.
+Found in here are practical "real-world" examples of interactive dashboards and tools, developed by members of the MATRIX project.
 
 ## Disease Dashboards (SVA, Sweden)
 

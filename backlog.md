@@ -1,7 +1,5 @@
 -	Contact list: Put MATRIX on top, then WP6, Then contact list: Add more people in the list
 -	Contact list: Make table and update with people
 -	Resources list is not as a link
--	Make all links in navigation sidebar one line and remove "Dashboard"
 -	Think about the name of the website, maybe should be broader than just dashboards
 -	Create logo with name of site
--	Change title of One Health data section

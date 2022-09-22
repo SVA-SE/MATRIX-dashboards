@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Data and Workflows"
+title: "One Health Data"
 nav_order: 3
 ---
 
-# Co-analysing One Health Data: Considerations, pitfalls and biases
+# One Health Data Co-Analysis: Considerations, Pitfalls and Biases
 {: .no_toc }
 
 <details open markdown="block">
