@@ -1,5 +1,4 @@
--	Contact list: Put MATRIX on top, then WP6, Then contact list: Add more people in the list
--	Contact list: Make table and update with people
+-	Contact list: Make table and update with more people
 -	Resources list is not as a link
 -	Think about the name of the website, maybe should be broader than just dashboards
 -	Create logo with name of site
