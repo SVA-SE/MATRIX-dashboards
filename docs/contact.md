@@ -27,11 +27,15 @@ Leader: Wiktor Gustafsson, SVA ([wiktor.gustafsson@sva.se](mailto:wiktor.gustafs
 
 Co-leader: Gry Marysol Grøneng, NIPH ([grymarysol.groneng@fhi.no](mailto:grymarysol.groneng@fhi.no))
 
-## Expert contacts
-A list of persons with knowledge within topics relevant to One Health Surveillance or Dashboards within the member institutes of MATRIX.
+## Expert Contacts
+A list of persons within the member institutes of MATRIX, with knowledge within One Health Surveillance, dashboards or other relevant topics.
 
-### France
-Géraldine Cazeau, ANSES ([geraldine.cazeau@anses.fr](mailto:geraldine.cazeau@anses.fr))
-
-### Sweden
-Wiktor Gustafsson, SVA ([wiktor.gustafsson@sva.se](mailto:wiktor.gustafsson@sva.se))
+| Name | Institute, country | Contact topics | Email address |
+|------|--------------------|---------------|---------------|
+| Adriano Di Pasquale | IZSAM, Italy | Dashboard development, Italy representative | [al.deluca@izs.it](mailto:al.deluca@izs.it) |
+| Clémence Koren | NIPH, Norway | UI/UX and visual design | [clemence.koren@fhi.no](mailto:clemence.koren@fhi.no) |
+| Géraldine Cazeau | ANSES, France | France representative | [geraldine.cazeau@anses.fr](mailto:geraldine.cazeau@anses.fr) |
+| Gry Marysol Grøneng | NIPH, Norway | OHS, Norway representative | [GryMarysol.Groneng@fhi.no](mailto:GryMarysol.Groneng@fhi.no) |
+| Guido Benedetti | SSI, Denmark | Operational research, public health surveillance in low-resource settings, SSI representative, MATRIX | [gube@ssi.dk](mailto:gube@ssi.dk) |
+| Manuela Caniça | INSA, Portugal | AMR, OHS, Portugal representative | [Manuela.Canica@insa.min-saude.pt](mailto:Manuela.Canica@insa.min-saude.pt) |
+| Wiktor Gustafsson | SVA, Sweden | Dashboard development | [wiktor.gustafsson@sva.se](mailto:wiktor.gustafsson@sva.se)
