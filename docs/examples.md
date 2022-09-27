@@ -19,6 +19,18 @@ toc: true
 
 Found in here are practical "real-world" examples of interactive dashboards and tools, developed by members of the MATRIX project.
 
+## BIKE (RUOKA, Finland)
+BIKE is a probabilistic dietary exposure assessment model for microbiological hazards (acute exposures) and chemical hazards (chronic exposures) in food. It is downloadable and open source, providing dashboard features in a graphical user interface (Shiny App). Once downloaded, the user can run the model in their local computer with their own data, to obtain results on estimated exposure (& concentration- & consumption-) distributions and the associated uncertainty implied by the quantity and accuracy of data.
+
+### Method
+The models are based on Bayesian statistical methods and implemented by Markov Chain Monte Carlo (MCMC) simulations. The mathematical models are described in detail in open journal: [https://www.mdpi.com/2304-8158/10/11/2520](https://www.mdpi.com/2304-8158/10/11/2520), and the corresponding matching model code at [https://github.com/jukran/BIKE](https://github.com/jukran/BIKE).
+
+### Data
+Consumption data for named food types and hazard occurrence data for the same food types. The user is required to provide data on dietary records for a representative sample of individuals for at least two days per individual, showing the consumed amounts (positive or zero) of each named food type per day. Additionally, hazard concentrations (a set of measurements) and possibly hazard prevalence data for the corresponding food types are needed. A few combinations and alternative interpretations of data are allowed, e.g. concerning values below or between measurement limits. Also processing factors can be applied, affecting prevalence and/or concentration at the time of consumption.
+
+### Technical implementation
+The model utilizes both [R](https://www.r-project.org/) and [OpenBUGS](https://www.mrc-bsu.cam.ac.uk/software/bugs/openbugs/), which need to be installed first. The R code reads data from user given files, and then formats and analyses the data. Based on this, it writes a data-specific OpenBUGS code for implementing the Bayesian model simulations, according to the data structure found, and calls OpenBUGS to perform the MCMC simulations accordingly. After the MCMC simulations are done, the results are processed in R, and they are visualised in a local [Shiny](https://shiny.rstudio.com/) app which provides a user interface for interactively investigating the hazard-food exposure pairs, or total exposure from several foods, or concentrations, or consumptions.
+
 ## Disease Dashboards (SVA, Sweden)
 
 The National Veterinary Institute (SVA) is the largest veterinary laboratory in Sweden. Every day our microbiology, pathology and sequencing departments analyse a large amount of samples, which in turn produces large amount of data. These data need to be summarised and translated into actionable information in order to fulfil one our main missions: surveillance communication. We need to effectively communicate the epidemiological situation of Sweden to disease experts, as well as animal owners and the general public.
@@ -101,18 +113,6 @@ The website is developed entirely with Shiny, a library of web development for t
 ## Denmark
 
 No dashboard to report.
-
-## BIKE (RUOKA, Finland)
-BIKE is a probabilistic dietary exposure assessment model for microbiological hazards (acute exposures) and chemical hazards (chronic exposures) in food. It is downloadable and open source, providing dashboard features in a graphical user interface (Shiny App). Once downloaded, the user can run the model in their local computer with their own data, to obtain results on estimated exposure (& concentration- & consumption-) distributions and the associated uncertainty implied by the quantity and accuracy of data.
-
-### Method
-The models are based on Bayesian statistical methods and implemented by Markov Chain Monte Carlo (MCMC) simulations. The mathematical models are described in detail in open journal: [https://www.mdpi.com/2304-8158/10/11/2520](https://www.mdpi.com/2304-8158/10/11/2520), and the corresponding matching model code at [https://github.com/jukran/BIKE](https://github.com/jukran/BIKE).
-
-### Data
-Consumption data for named food types and hazard occurrence data for the same food types. The user is required to provide data on dietary records for a representative sample of individuals for at least two days per individual, showing the consumed amounts (positive or zero) of each named food type per day. Additionally, hazard concentrations (a set of measurements) and possibly hazard prevalence data for the corresponding food types are needed. A few combinations and alternative interpretations of data are allowed, e.g. concerning values below or between measurement limits. Also processing factors can be applied, affecting prevalence and/or concentration at the time of consumption.
-
-### Technical implementation
-The model utilizes both [R](https://www.r-project.org/) and [OpenBUGS](https://www.mrc-bsu.cam.ac.uk/software/bugs/openbugs/), which need to be installed first. The R code reads data from user given files, and then formats and analyses the data. Based on this, it writes a data-specific OpenBUGS code for implementing the Bayesian model simulations, according to the data structure found, and calls OpenBUGS to perform the MCMC simulations accordingly. After the MCMC simulations are done, the results are processed in R, and they are visualised in a local [Shiny](https://shiny.rstudio.com/) app which provides a user interface for interactively investigating the hazard-food exposure pairs, or total exposure from several foods, or concentrations, or consumptions.
 
 ## FLI, Germany
 
