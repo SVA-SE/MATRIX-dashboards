@@ -37,5 +37,6 @@ A list of persons within the member institutes of MATRIX, with knowledge within 
 | Géraldine Cazeau | ANSES, France | France representative | [geraldine.cazeau@anses.fr](mailto:geraldine.cazeau@anses.fr) |
 | Gry Marysol Grøneng | NIPH, Norway | OHS, Norway representative | [GryMarysol.Groneng@fhi.no](mailto:GryMarysol.Groneng@fhi.no) |
 | Guido Benedetti | SSI, Denmark | Operational research, public health surveillance in low-resource settings, SSI representative, MATRIX | [gube@ssi.dk](mailto:gube@ssi.dk) |
+| Jukka Ranta | RUOKA, Finland | Quantitative risk assessment, applications of Bayesian models and statistics, Finland representative | [Jukka.Ranta@ruokavirasto.fi](mailto:Jukka.Ranta@ruokavirasto.fi) |
 | Manuela Caniça | INSA, Portugal | AMR, OHS, Portugal representative | [Manuela.Canica@insa.min-saude.pt](mailto:Manuela.Canica@insa.min-saude.pt) |
 | Wiktor Gustafsson | SVA, Sweden | Dashboard development, Sweden representative | [wiktor.gustafsson@sva.se](mailto:wiktor.gustafsson@sva.se)
