@@ -39,7 +39,7 @@ _TODO: make a new chapter for each technical solution_
 - beneficial:
   - understanding of basic web languages and website structure
   - knowledge of HTML and CSS for visual design
-  - knowledge of JS for advanced features and user-friendliness
+  - knowledge of JS for more advanced custom UI features
 
 **Infrastructure:**
 
@@ -67,11 +67,14 @@ _TODO: make a new chapter for each technical solution_
 
 ### Resources and Learning Material
 
-It is possible to start making Shiny dashboard with entry- to intermediate-level R.
+It is possible to start making Shiny dashboard with entry- to intermediate-level R skills.
 
 The [2.5H video tutorial](https://shiny.rstudio.com/tutorial/) on R Shiny's main page is a very good start and will take you through the structure of Shiny apps, the basics of layout and all reactivity functions.
 
-_TODO: continue with more advanced articles and a path towards more complex dashboards_
+To go further, the [Articles page](https://shiny.rstudio.com/articles) on R Shiny's main page has detailed information on performance optimisation, UI and integration of HTML, CSS and JS.
+
+Eventually, making better dashboards will mean improving the delivery of information to the user through clearer content, better content flow and better UI and UX design.
+
 
 ### Basic Tutorial
 
