@@ -110,13 +110,26 @@ The website is structured in a traditional way, with a navigation bar at the top
 ### Implementation
 The website is developed entirely with Shiny, a library of web development for the statistical software R. Additionally, we wrote a custom stylesheet in CSS to improve visual appeal and user-friendliness. Graphs and maps make use of some specific R libraries (leaflet, fhimaps, fhiplot, ggplot2). The automatization of data flow is handled by Sykdomspulsen Analytics, which is an implementation of the generic Sykdomspulsen Core framework (available in the form of an open-source R package). It requires a linux server, a database, and a set of container images (i.e. lightweight virtual machines). More information can be found [here](https://docs.sykdomspulsen.no/).
 
+## TSIS – TierSeuchenInformationsSystem / Animal Diseases Information System (FLI, Germany)
+**https://tsis.fli.de/**
+
+The TierSeuchenInformationsSystem (TSIS), otherwise known as the Animal Diseases Information System, makes up-to-date information on notifiable animal diseases in Germany available to the public. The system allows for interactive searching of animal disease outbreaks in Germany, provides information on the status of notifiable infectious animal diseases in Germany and respective restriction zones.
+Notifiable animal diseases are infections of animals that are subject to national control programmes due to their economic importance or their risks for livestock or human health. In Germany, control measures are implemented by the federal states (Länder). The competent veterinary authorities must notify the Federal Ministry of Food and Agriculture about all animal disease outbreaks that occur in their area of responsibility. Notification occurs via electronic data transmission through use of the software "TSN", i.e. TierSeuchenNachrichten System (animal disease information system), which is only accessible to the approved authorities.
+
+
+However, these notifications form the basis of the Animal Disease Information System (TSIS) and make appropriate information on the current animal health situation in Germany accessible to the public. TSIS also contains information on previous animal disease outbreaks, individual epidemics and the functioning of national control measures. As a result, TSIS provides all those interested in animal health with quick and easy access to up-to-date information on the animal health situation in Germany.
+
+### Data and technical implementation
+Notifiable animal disease data are collected into TSN, a relational database management system based on the Microsoft SQL server software. Limited data from TSN, including the disease, the species affected, the state and district within which the disease occurred, the date of detection and any restriction zones implemented in response to the notification are made available to the public through the TSIS web interface. The TSIS web interface uses the ASP.NET framework software and (C#) programming language.
+
+
+### Layout
+The TSIS web interface is structured with a navigation bar at the top of the page with menu options ‘*Startseite*’(Home page), ‘*Tierseuchenlage*’(Animal disease situation), ‘*Service*’(Resources) and ‘*Impressum*’(About). The option ‘*Tierseuchenlage*’ provides the user with three further options ‘*Tiersucheninformationen*’ (Animal disease information), '*Amtlicher Monatsbericht*’ (Official Monthly report) and ‘*Tiergesundheitsjahresberichte*’ (Animal health annual reports). When the user selects the option ‘*Tiersucheninformationen*’ they are taken to a page presenting all the notifiable diseases for which a report is available. If the user then selects a disease of interest from the list, they arrive at a page listing all the reports available for that disease. The user can filter the information by case status (active or inactive), animal type (domestic or wild), disease occurrence date (can be a range), location (state and/or region), pathogen details, and/or association with a restriction zone. The data are visualised in tabular form. Cases can also be visualised geographically through overlay over a map of Germany. At this time, the data can not be exported, however, planned updates to the system will allow this function in the future. 
+
+
 ## Denmark
 
 No dashboard to report.
-
-## FLI, Germany
-
-No dashboard reported as of yet.
 
 ## Netherlands
 
