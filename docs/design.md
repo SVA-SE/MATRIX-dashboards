@@ -125,11 +125,24 @@ Principles of visual design are tools such as emphasis, contrast, similarity, re
 If you don't feel confident in this task, the safest option is always to keep things simple. If you have a solid content structure from the previous step, that is already good enough. Most development tools will output a default product with a decent basic UI. Custom visual design will help creating a better product, but it is not strictly necessary.
 
 Here are some ways these principles can be used to craft a better UI and UX:
-- hierarchy: 
-- unity or consistency: having a unified design system (a set of decisions regarding font type, font size, color, graphic style) throughout the dashboard will help the user understand the structure of the content better (e.g., important takeaway messages will be displayed in bold italic). You don't want to start introducing exceptions (e.g., an important sentence displayed in bold underline), and break the underlying patterns that the user has learned about your platform. Breaking such patterns will make it harder for the user to find and understand the information presented to them. It can be difficult to achieve if you are working collaboratively, or even alone along a longer time period. It is thus recommended to decide on a design system prior development, to avoid inconsistencies. You can also do a full redesign during de
-- white space: 
+- **hierarchy**: having a good visual hierarchy between different elements will help the user understand the structure of the website better (having title, headers and subheaders with varying degrees of emphasis), and reach the important information faster (using bold text for important sentences, but not overusing it). 
+- unity or **consistency**: having a unified design system (a set of decisions regarding font type, font size, color, graphic style) throughout the dashboard will help the user understand the structure of the content better (e.g., important takeaway messages will be displayed in bold italic). You don't want to start introducing exceptions (e.g., an important sentence displayed in bold underline), and break the underlying patterns that the user has learned about your platform. Breaking such patterns will make it harder for the user to find and understand the information presented to them. It can be difficult to achieve if you are working collaboratively, or even alone along a longer time period. It is thus recommended to decide on a design system prior development, to avoid inconsistencies. You can also do a full redesign during development. Check the consistency in text colour and emphasis (bold/italic/underline), in spacing between paragraphs and around figures, in page structure for multi-tabs dashboards, in graph and map styles, in the vocabulary used throughout the website...
+- white space or **negative space**: creating breathing room around elements will allow the user's eye to land easier on different blocks of information and their mind to rest and refocus. It will help you show a clearer structure of content, and put emphasis on what is important. Use margins around graphs, breathable lineheight in text, space between paragraphs...
 
 
-## Tips for dashboard design
+If you are interested, you can find more information here:
+- [Short video on the Principles of Design](https://www.youtube.com/watch?v=9EPTM91TBDU)
+- simple web browser or Youtube search for "Fundamentals of web design", "Principles of visual design" or the like. 
 
 
+
+## Tips for better dashboard design
+
+Some miscellaneous tips to improving the UI or UX of your dashboard:
+- if possible, involve your Communications Department early in the process!
+- various UI features that will improve UX:
+  - back to top button for long linear pages
+  - spinning wheel on loading elements to show that something is happening and the user should just wait
+  - conditional feedback message based on user interaction (e.g., a success message after downloading a file)
+  - custom explicit error messages for all situations (url invalid, database failed to load, user input invalid...)
+  - breadcrumbs to help navigation in complex dashboards (e.g., One Health > Projects > MATRIX > WP6)
