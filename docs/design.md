@@ -65,6 +65,27 @@ Here are were basics web elements are expected to be found:
   - (optional) legal information, logos and links to partner institutions, links to employees only sections, ...
 
 
+### Content Structure
+
+In this step you start deciding on the content (text, maps, graphs, interactive input fields, downloadable elements, …) that your dashboard will contain, and how to structure this content. The user research done previously should greatly inform the decisions you take here.
+
+The goal is to divide and organise the information in meaningful blocks and create a natural flow of content that guides the user to the information they need. Based on the product definition and the overview of your users' needs, you can decide which content is needed, how to structure it and in which order it should be introduced.
+
+_For example, in the Norwegian One Health dashboard for the surveillance of Campylobacter, we have divided the website in several tabs and subtabs based on what the users will come to the website for. The landing page (Oneh Health > Campylobacter surveillance) shows at a glance the most important information, relevant to all users. More detailed information is put aside in other tabs, where the user can find them if and when they need it.
+- _One Health
+  - _Campylobacter surveillance: model results, interactive outbreak risk maps and combined multi-sectorial data
+  - _About Campylobacter: detailed info on Campylobacter and its impact on humans, animals and its relationship to the environment
+  - _One Health: information on the One Health approach and the relevant OHEJPs
+  - _Contact: contact info of various actors of the project
+- _Animal Health: raw data from the animal side
+- _Public Health: raw data from the human side_
+
+
+Start designing at a global level and dive into details iteratively. Will you have tabs and subtabs? What graphs or visualisations will you have? Are they interactive? What text is needed to accompany the data?
+
+
+### Wireframing
+
 
 
 
