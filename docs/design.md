@@ -69,23 +69,28 @@ Here are were basics web elements are expected to be found:
 
 In this step you start deciding on the content (text, maps, graphs, interactive input fields, downloadable elements, …) that your dashboard will contain, and how to structure this content. The user research done previously should greatly inform the decisions you take here.
 
-The goal is to divide and organise the information in meaningful blocks and create a natural flow of content that guides the user to the information they need. Based on the product definition and the overview of your users' needs, you can decide which content is needed, how to structure it and in which order it should be introduced.
+The goal is to divide and organise the information in meaningful blocks and create a natural flow of content that guides the user to the information they need. Based on the product definition and the overview of your users' needs, you can decide which content is needed, how to structure it and in which order it should be introduced. Will you have tabs and subtabs? What graphs or visualisations will you have? Are they interactive? What text is needed to accompany the data?
 
-_For example, in the Norwegian One Health dashboard for the surveillance of Campylobacter, we have divided the website in several tabs and subtabs based on what the users will come to the website for. The landing page (Oneh Health > Campylobacter surveillance) shows at a glance the most important information, relevant to all users. More detailed information is put aside in other tabs, where the user can find them if and when they need it.
-- _One Health
-  - _Campylobacter surveillance: model results, interactive outbreak risk maps and combined multi-sectorial data
-  - _About Campylobacter: detailed info on Campylobacter and its impact on humans, animals and its relationship to the environment
-  - _One Health: information on the One Health approach and the relevant OHEJPs
-  - _Contact: contact info of various actors of the project
-- _Animal Health: raw data from the animal side
+_For example, in the Norwegian One Health dashboard for the surveillance of Campylobacter, we have divided the website in several tabs and subtabs based on what the users will come to the website for. The landing page (Oneh Health > Campylobacter surveillance) shows at a glance the most important information, relevant to all users. More detailed information is put aside in other tabs, where the user can find them if and when they need it._
+- _One Health_
+  - _Campylobacter surveillance: model results, interactive outbreak risk maps and combined multi-sectorial data_
+  - _About Campylobacter: detailed info on Campylobacter and its impact on humans, animals and its relationship to the environment_
+  - _One Health: information on the One Health approach and the relevant OHEJPs_
+  - _Contact: contact info of various actors of the project_
+- _Animal Health: raw data from the animal side_
 - _Public Health: raw data from the human side_
 
 
-Start designing at a global level and dive into details iteratively. Will you have tabs and subtabs? What graphs or visualisations will you have? Are they interactive? What text is needed to accompany the data?
+Start designing at a global level and dive into details iteratively. At each step, the content should flow in a meaningful way, before you delve deeper into specifics.
 
 
 ### Wireframing
 
+Wireframing is a common tool in web design, to plan the structure of content. It is a process done simply with pen and paper, where one draws boxes to represent content blocks. It allows you to think of the nature of the content and the flow of information, without getting distracted by the wording of a text, the colours and styles of a graph, or any other details. This technique allows you to refine the flow of content and make sure that the information is properly introduced, that the most important information is given a choice location on the page, and that the user would be able to go through an action and achieve their goal in the most efficient way.
+
+It should be used in the initial stage of page layout and content structuring, but can also be used later on for more detailed elements (e.g., a complex block of content with a graph, a legend, a figure caption, an user input field with a text field and dropdown menus and a final download button).
+
+_TODO: Things to keep in mind while doing wireframing_
 
 
 
