@@ -96,4 +96,40 @@ _TODO: Things to keep in mind while doing wireframing_
 
 # Visual Design
 
-xxx
+Visual design is deciding how the information is being presented. It is done through page layout, color palette, font choices, illustration, graphic design… It relies on various principles such as hierarchy, contrast or repetition, that are known to influence how the eye identifies and understands visual elements and patterns. It is a very important part of the dashboard design process. A good UI (User interface) is essential to craft a good UX (User experience) and will allow the user to reach information more efficiently.
+
+It does require skills and knowledge that most users of this MATRIX manual wouldn’t be experts in. Ideally, you will have the support of an experienced designer in your team or from the Communications Department of your institute. This subsection is only aiming to give you some guidelines if that were not the case.
+
+Some basic qualities of a **good design** are that it is **accessible** (the information is reachable and understandable), and that it is **visually pleasing** (it is comfortable and/or interesting to use the platform). 
+
+
+## Accessibility
+
+When creating website, you should always make sure that your product is accessible. Accessibility requirements are extremely important, if not required by law, espcially for dashboards open to the public. The Communication Department of your institute will have rules and resources to make sure you are providing a platform accessible to all. These are some things to keep in mind:
+
+- Colour palettes should be accessible to colorblind and other **visually impaired people**. That means having colour being contrasted enough on their background, never using a red/green dichotomy for graphs, and relying on symbols more than colours to convey information if possible.
+- All important features should be **keyboard accessible**.
+- The text and semantic of your page should be **screen-reader friendly**. That means using HTML tags in a semantically correct way, and always providing ALT text to images.
+
+This is especially important if you are developing your own custom code with basic HTML/CSS/JS. But note that some dashboard-making solutions are still lagging behind on some aspects (e.g., some input fields in R shiny are not yet keyboard accessible, but upcoming versions should fix this). You need to do a concerted effort to go through all aspects of your website and make sure that you are as accessible as possible.
+
+More information on accessibility of the web:
+- [W3 Web Accessibility Inititative](https://www.w3.org/WAI/fundamentals/) - extensive resources, standards and guidelines
+- [Mozilla developer's tutorials on accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility) - very pedagogic and understandable learning material
+
+
+## Principles of Visual Design
+
+Principles of visual design are tools such as emphasis, contrast, similarity, repetition, alignment, ... (There seems to be as many list of these principles as there are designers, with varying numbers, nomenclature and definition). A designer uses these tools to craft a specific experience for the viewer, by putting focus on specific elements, directing the eye along a specific path, and increasing visual interest and appeal. There are many wrong ways to do it, and no single right way, which is why the input of an experienced designer will always be beneficial.
+
+If you don't feel confident in this task, the safest option is always to keep things simple. If you have a solid content structure from the previous step, that is already good enough. Most development tools will output a default product with a decent basic UI. Custom visual design will help creating a better product, but it is not strictly necessary.
+
+Here are some ways these principles can be used to craft a better UI and UX:
+- hierarchy: 
+- unity or consistency: having a unified design system (a set of decisions regarding font type, font size, color, graphic style) throughout the dashboard will help the user understand the structure of the content better (e.g., important takeaway messages will be displayed in bold italic). You don't want to start introducing exceptions (e.g., an important sentence displayed in bold underline), and break the underlying patterns that the user has learned about your platform. Breaking such patterns will make it harder for the user to find and understand the information presented to them. It can be difficult to achieve if you are working collaboratively, or even alone along a longer time period. It is thus recommended to decide on a design system prior development, to avoid inconsistencies. You can also do a full redesign during de
+- white space: 
+
+
+## Tips for dashboard design
+
+
