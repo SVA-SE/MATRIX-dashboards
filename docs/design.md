@@ -16,7 +16,7 @@ nav_order: 4
 {:toc}
 </details>
 
-Design refers here to the substantial process of both content planning and visual design. Readers of this manual who are familiar with the data that will populate the dashboard, will most likely be more concerned and more skilled in the content planning phase. For the sake of completeness, this chapter will cover some principles of visual design and some considerations regarding dashboard design specifically. However, for complex projects, and especially for public-facing dashboard, it is highly recommended to enlist the help of a web designer, for example from the Communication Department of your institute.
+Design refers here to the substantial process of both **content planning** and **visual design**. Readers of this manual who are familiar with the data that will populate the dashboard, will most likely be more concerned and more skilled in the content planning phase. For the sake of completeness, this chapter will cover some principles of visual design and some considerations regarding dashboard design specifically. However, for complex projects, and especially for public-facing dashboard, it is highly recommended to enlist the help of a web designer, for example from the Communication Department of your institute.
 
 
 
@@ -36,7 +36,7 @@ _TODO: list helpful questions for product definitions_
 
 ## Know your users
 
-Identifying the problems, needs and expectations of the users is the key to building a successful and useful product. It would be unwise to develop the exact same dashboard for a small set of experts and for the general public. Likewise, you, as a scientist and dashboard developer, have a different level of knowledge and familiarity with the content of the dashboard than the intended user. Doing detailed user profiling will help to craft a platform fully targeted to the needs of the users.
+**Identifying the problems, needs and expectations of the users** is the key to building a successful and useful product. It would be unwise to develop the exact same dashboard for a small set of experts and for the general public. Likewise, you, as a scientist and dashboard developer, have a different level of knowledge and familiarity with the content of the dashboard than the intended user. Doing detailed user profiling will help to craft a platform fully targeted to the needs of the users.
 
 _TODO: go through user profiling process_
 
@@ -50,14 +50,14 @@ With the insight gained from product definition and user profiling, it is now po
 
 In this step, you decide which basic website elements (logo, menu, footer, ...) will be present, and where to display them on the page. This will be in parts dependent on the technical solution you have chosen to develop the dashboard, and how much flexibility it allows.
 
-In general, don't get too creative. Most people are familiar with the internet and have a set of expectations when it comes to navigating a website. Deviating from these expectations will only make your dashboard harder to use.
+In general, **don't get too creative**. Most people are familiar with the internet and have a set of expectations when it comes to navigating a website. Deviating from these expectations will only make your dashboard harder to use.
 
 Here are were basics web elements are expected to be found:
 
-- Logo and website name: Top of the page. Centered or in the left corner
-- Main navigation menu: Top of the page. Below or to the right of the logo. Alternatively in a sidebar to the left of the page.
-- Main content: Occupies most of the screen. Traditionaly will be linear content on a scrollable long page, with fixed width and centered on the screen. Alternatively, dashboards can be presented as tiled blocks of content on a grid that takes the whole screen.
-- Footer: Optional but very useful. A band occupying the whole bottom section of a page. Usually contains:
+- **Logo and website name**: Top of the page. Centered or in the left corner
+- **Main navigation menu**: Top of the page. Below or to the right of the logo. Alternatively in a sidebar to the left of the page.
+- **Main content**: Occupies most of the screen. Traditionaly will be linear content on a scrollable long page, with fixed width and centered on the screen. Alternatively, dashboards can be presented as tiled blocks of content on a grid that takes the whole screen.
+- **Footer**: Optional but very useful. A band occupying the whole bottom section of a page. Usually contains:
   - logo and name of the page
   - copyright with date of activity and name of the developer/page owner/institute
   - main navigation links
@@ -69,7 +69,7 @@ Here are were basics web elements are expected to be found:
 
 In this step you start deciding on the content (text, maps, graphs, interactive input fields, downloadable elements, …) that your dashboard will contain, and how to structure this content. The user research done previously should greatly inform the decisions you take here.
 
-The goal is to divide and organise the information in meaningful blocks and create a natural flow of content that guides the user to the information they need. Based on the product definition and the overview of your users' needs, you can decide which content is needed, how to structure it and in which order it should be introduced. Will you have tabs and subtabs? What graphs or visualisations will you have? Are they interactive? What text is needed to accompany the data?
+The goal is to **divide and organise the information in meaningful blocks and create a natural flow of content that guides the user** to the information they need. Based on the product definition and the overview of your users' needs, you can decide which content is needed, how to structure it and in which order it should be introduced. Will you have tabs and subtabs? What graphs or visualisations will you have? Are they interactive? What text is needed to accompany the data?
 
 _For example, in the Norwegian One Health dashboard for the surveillance of Campylobacter, we have divided the website in several tabs and subtabs based on what the users will come to the website for. The landing page (Oneh Health > Campylobacter surveillance) shows at a glance the most important information, relevant to all users. More detailed information is put aside in other tabs, where the user can find them if and when they need it._
 - _One Health_
@@ -96,7 +96,7 @@ _TODO: Things to keep in mind while doing wireframing_
 
 # Visual Design
 
-Visual design is deciding how the information is being presented. It is done through page layout, color palette, font choices, illustration, graphic design… It relies on various principles such as hierarchy, contrast or repetition, that are known to influence how the eye identifies and understands visual elements and patterns. It is a very important part of the dashboard design process. A good UI (User interface) is essential to craft a good UX (User experience) and will allow the user to reach information more efficiently.
+Visual design is deciding how the information is being presented. It is done through page layout, color palette, font choices, illustration, graphic design… It relies on various principles such as hierarchy, contrast or repetition, that are known to influence how the eye identifies and understands visual elements and patterns. It is a very important part of the dashboard design process. **A good UI (User interface) is essential to craft a good UX (User experience)** and will allow the user to reach information more efficiently.
 
 It does require skills and knowledge that most users of this MATRIX manual wouldn’t be experts in. Ideally, you will have the support of an experienced designer in your team or from the Communications Department of your institute. This subsection is only aiming to give you some guidelines if that were not the case.
 
@@ -105,7 +105,7 @@ Some basic qualities of a **good design** are that it is **accessible** (the inf
 
 ## Accessibility
 
-When creating website, you should always make sure that your product is accessible. Accessibility requirements are extremely important, if not required by law, espcially for dashboards open to the public. The Communication Department of your institute will have rules and resources to make sure you are providing a platform accessible to all. These are some things to keep in mind:
+When creating website, you should always make sure that your product is accessible. Accessibility requirements are extremely important (and sometimes required by law), especially for dashboards open to the public. The Communication Department of your institute will have rules and resources to make sure you are providing a platform accessible to all. These are some things to keep in mind:
 
 - Colour palettes should be accessible to colorblind and other **visually impaired people**. That means having colour being contrasted enough on their background, never using a red/green dichotomy for graphs, and relying on symbols more than colours to convey information if possible.
 - All important features should be **keyboard accessible**.
@@ -122,7 +122,7 @@ More information on accessibility of the web:
 
 Principles of visual design are tools such as emphasis, contrast, similarity, repetition, alignment, ... (There seems to be as many list of these principles as there are designers, with varying numbers, nomenclature and definition). A designer uses these tools to craft a specific experience for the viewer, by putting focus on specific elements, directing the eye along a specific path, and increasing visual interest and appeal. There are many wrong ways to do it, and no single right way, which is why the input of an experienced designer will always be beneficial.
 
-If you don't feel confident in this task, the safest option is always to keep things simple. If you have a solid content structure from the previous step, that is already good enough. Most development tools will output a default product with a decent basic UI. Custom visual design will help creating a better product, but it is not strictly necessary.
+If you don't feel confident in this task, **the safest option is always to keep things simple**. If you have a solid content structure from the previous step, that is already good enough. Most development tools will output a default product with a decent basic UI. Custom visual design will help creating a better product, but it is not strictly necessary.
 
 Here are some ways these principles can be used to craft a better UI and UX:
 - **hierarchy**: having a good visual hierarchy between different elements will help the user understand the structure of the website better (having title, headers and subheaders with varying degrees of emphasis), and reach the important information faster (using bold text for important sentences, but not overusing it). 
