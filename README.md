@@ -4,8 +4,8 @@ An inventory of dashboard development for One Health disease surveillance. Produ
 ## Structure
 This repository is divided into two main sections: A dashboard information hub (kept in the **docs** folder), and working dashboard examples to complement the information (kept in the **code** folder).
 
-### Information centre
-This is the starting point of the inventory. The idea is that someone who wants to develop a One Health surveillance dashboard can go to this information centre (publicly accessible as a webpage at https://sva-se.github.io/MATRIX-dashboards) and use it as a resource
+### Information Centre
+This is the starting point of the inventory. The idea is that someone who wants to develop a One Health surveillance dashboard can go to this information centre (publicly accessible as a webpage at [https://sva-se.github.io/MATRIX-dashboards](https://sva-se.github.io/MATRIX-dashboards)) and use it as a resource.
 
 The information centre is divided into sections:
 
