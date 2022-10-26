@@ -1,3 +1,0 @@
--	Resources list is not as a link
--	Think about the name of the website, maybe should be broader than just dashboards
--	Create logo with name of site
