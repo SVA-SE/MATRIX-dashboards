@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Technical Solutions"
+title: "R Shiny"
 nav_order: 5
 ---
 
-# Technical Solutions
+# Building a Dashboard with R Shiny
 {: .no_toc }
 
 <details open markdown="block">
@@ -15,12 +15,6 @@ nav_order: 5
 1. TOC
 {:toc}
 </details>
-
-_TODO: summary of technical solutions (R Shiny, ArcGIS, ...), pros and cons of each, skills needed, etc..._
-
-_TODO: make a new chapter for each technical solution_
-
-# R Shiny
 
 ## Introduction
 
