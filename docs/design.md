@@ -67,7 +67,7 @@ In this step you start deciding on the content (text, maps, graphs, interactive 
 
 The goal is to **divide and organise the information in meaningful blocks and create a natural flow of content that guides the user** to the information they need. Based on the product definition and the overview of your users' needs, you can decide which content is needed, how to structure it and in which order it should be introduced. Will you have tabs and subtabs? What graphs or visualisations will you have? Are they interactive? What text is needed to accompany the data?
 
-_For example, in the Norwegian One Health dashboard for the surveillance of Campylobacter, we have divided the website in several tabs and subtabs based on what the users will come to the website for. The landing page (Oneh Health > Campylobacter surveillance) shows at a glance the most important information, relevant to all users. More detailed information is put aside in other tabs, where the user can find them if and when they need it._
+_For example, in the Norwegian One Health dashboard for the surveillance of Campylobacter, we have divided the website in several tabs and subtabs based on what the users will come to the website for. The landing page (One Health > Campylobacter surveillance) shows at a glance the most important information, relevant to all users. More detailed information is put aside in other tabs, where the user can find them if and when they need it._
 - _One Health_
   - _Campylobacter surveillance: model results, interactive outbreak risk maps and combined multi-sectorial data_
   - _About Campylobacter: detailed info on Campylobacter and its impact on humans, animals and its relationship to the environment_
