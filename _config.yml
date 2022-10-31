@@ -12,11 +12,17 @@ logo: "assets/matrix_logo.png"
 search_enabled: true
 
 aux_links:
-  "MATRIX Dashboards on GitHub":
+  "Dashboard Information Centre on GitHub":
     - "//github.com/sva-se/matrix-dashboards"
   "OHEJP MATRIX Homepage":
     - "//onehealthejp.eu/jip-matrix/"
 aux_links_new_tab: true
+
+nav_external_links:
+  - title: Dashboard Information Centre on GitHub
+    url: https://github.com/sva-se/matrix-dashboards
+  - title: OHEJP MATRIX Homepage
+    url: https://onehealthejp.eu/jip-matrix/
 
 back_to_top: true
 back_to_top_text: "Back to top"
@@ -25,6 +31,8 @@ last_edit_timestamp: true
 last_edit_time_format: "%Y-%m-%d at %H-%M-%S"
 
 heading_anchors: true
+
+ga_tracking: G-M7ZMDX6LH7
 
 plugins:
   - jekyll-seo-tag
