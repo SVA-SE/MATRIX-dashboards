@@ -61,8 +61,11 @@ Here are were basics web elements are expected to be found:
   - (optional) legal information, logos and links to partner institutions, links to employees only sections, ...
 
 
-![Example of two different page layouts](./images/page layout.png)
-"Example of two different page layouts. Left: Centered aligned linear content. Right: Layout with sidebar."
+![Example of two different page layouts](./docs/page layout.png)
+
+<img src="docs/page layout.png">
+
+Example of two different page layouts. Left: Centered aligned linear content. Right: Layout with sidebar.
 
 
 
