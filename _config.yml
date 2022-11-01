@@ -45,8 +45,8 @@ compress_html:
   blanklines: false
   profile: false
 
-footer_content: "This website is part of the European Joint Programme One Health EJP.<br>This project has received funding from the European Union's Horizon 2020<br>
-research and innovation programme under Grant Agreement No 773830. <img src=\"/MATRIX-dashboards/assets/ohejp_logo.png\" alt=\"OHEJP logo\" width=\"150px\">"
+footer_content: "<span>This website is part of the European Joint Programme One Health EJP.<br>This project has received funding from the European Union's Horizon 2020<br>
+research and innovation programme under Grant Agreement No 773830.</span> <span><img src=\"/MATRIX-dashboards/assets/ohejp_logo.png\" alt=\"OHEJP logo\" width=\"150px\"></span>"
 
 last_edit_timestamp: true
 last_edit_time_format: "%Y-%m-%d at %H:%M"
