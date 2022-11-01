@@ -61,6 +61,12 @@ Here are were basics web elements are expected to be found:
   - (optional) legal information, logos and links to partner institutions, links to employees only sections, ...
 
 
+![Example of two different page layouts](/MATRIX-dashboards/assets/docs_page_layout.png)
+
+Example of two different page layouts. Left: Centered aligned linear content. Right: Layout with sidebar.
+
+
+
 #### Content Structure
 
 In this step you start deciding on the content (text, maps, graphs, interactive input fields, downloadable elements, …) that your dashboard will contain, and how to structure this content. The user research done previously should greatly inform the decisions you take here.
