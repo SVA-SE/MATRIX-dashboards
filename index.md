@@ -4,8 +4,8 @@ title: "Home"
 nav_order: 1
 ---
 
-<a href="https://onehealthejp.eu/" target="_blank"><img src="assets/ohejp_logo.png" width=250px></a>
 <a href="https://onehealthejp.eu/" target="_blank"><img src="assets/matrix_logo.png" width=250px></a>
+<a href="https://onehealthejp.eu/" target="_blank"><img src="assets/ohejp_logo.png" width=250px></a>
 
 <br>
 
