@@ -16,7 +16,7 @@ nav_order: 4
 {:toc}
 </details>
 
-![test](assets/matrix_logo.png)
+![test](/assets/matrix_logo.png)
 
 Design refers here to the substantial process of both **content planning** and **visual design**. Readers of this manual who are familiar with the data that will populate the dashboard, will most likely be more concerned and more skilled in the content planning phase. For the sake of completeness, this chapter will cover some principles of visual design and some considerations regarding dashboard design specifically. However, for complex projects, and especially for public-facing dashboard, it is highly recommended to enlist the help of a web designer, for example from the Communication Department of your institute.
 
