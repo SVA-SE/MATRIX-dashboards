@@ -176,11 +176,6 @@ Notifiable animal disease data are collected into TSN, a relational database man
 ### Layout
 The TSIS web interface is structured with a navigation bar at the top of the page with menu options ‘*Startseite*’(Home page), ‘*Tierseuchenlage*’(Animal disease situation), ‘*Service*’(Resources) and ‘*Impressum*’(About). The option ‘*Tierseuchenlage*’ provides the user with three further options ‘*Tiersucheninformationen*’ (Animal disease information), '*Amtlicher Monatsbericht*’ (Official Monthly report) and ‘*Tiergesundheitsjahresberichte*’ (Animal health annual reports). When the user selects the option ‘*Tiersucheninformationen*’ they are taken to a page presenting all the notifiable diseases for which a report is available. If the user then selects a disease of interest from the list, they arrive at a page listing all the reports available for that disease. The user can filter the information by case status (active or inactive), animal type (domestic or wild), disease occurrence date (can be a range), location (state and/or region), pathogen details, and/or association with a restriction zone. The data are visualised in tabular form. Cases can also be visualised geographically through overlay over a map of Germany. At this time, the data can not be exported, however, planned updates to the system will allow this function in the future. 
 
-
-## Denmark
-
-No dashboard to report.
-
 ## Netherlands
 
 No dashboard reported as of yet.
