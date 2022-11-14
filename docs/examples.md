@@ -32,6 +32,30 @@ Consumption data for named food types and hazard occurrence data for the same fo
 ### Technical implementation
 The model utilizes both R and OpenBUGS, which need to be installed first. The R code reads data from user given files, and then formats and analyses the data. Based on this, it writes a data-specific OpenBUGS code for implementing the Bayesian model simulations, according to the data structure found, and calls OpenBUGS to perform the MCMC simulations accordingly. After the MCMC simulations are done, the results are processed in R, and they are visualised in a local Shiny app which provides a user interface for interactively investigating the hazard-food exposure pairs, or total exposure from several foods, or concentrations, or consumptions.
 
+## COVID-19 Dashboard (SSI, Denmark)
+**[https://experience.arcgis.com/experience/242ec2acc014456295189631586f1d26](https://experience.arcgis.com/experience/242ec2acc014456295189631586f1d26)**
+
+### Data 
+The data used in this dashboard comes from [several registers and surveillance systems](https://covid19.ssi.dk/datakilder-og-definitioner):   
+
+* The Central Population Register (CPR) provides data regarding address, nationality, and death date
+* The Cause of Death Register (DAR) provides data on the official cause of death
+* Patient Registers (LPR & LPR3) provide data on patients currently admitted at hospitals in Denmark 
+* Sentinel surveillance from private practitioners provides data on patients seen for moderate illness 
+* [COVIDmeter](https://covid19.ssi.dk/overvagningsdata/covidmeter), a platform that allows individuals to report whether or not they have had COVID-related symptoms each week, and other home-based reporting methods provide data on individuals with mild to no symptoms 
+* The Authorizations registry monitors the infection among healthcare personnel 
+* MIS3 is the central database where all patients with diseases with reporting obligation are registered. Covid-19 cases were reported individually but now the reporting is done by the laboratories
+* These registers are then coupled with The Danish Microbiological Database (MiBA), which provides data on microbiological test results across Denmark both from private and public test centers
+
+#### Data pipeline
+Data is taken from the MiBA database (raw sample results), standardized in the KIDS (Keys to Infectious Diseases System) data mart, and then processed with the help of SAS and Python, and finally ArcGIS. ArcGIS was chosen from among other possible tools because the interface is fairly user-friendly, it is great for geographical data visualization, and it does not require as sophisticated coding skills as some of the other solutions.  
+ 
+### Layout 
+The dashboard has different interfaces, which allow the user to choose whether they would like to see data regarding infection or vaccination on either a municipal or a regional level. Once an interface has been chosen, the viewer can see various relevant numbers, graphs and tables, including an interactive map of Denmark broken down by the aforementioned level of the user’s choosing. Some figures are also interactive, allowing the user to choose a municipality or region to view in greater detail. Additionally, the collection of dashboards has an interface displaying key national numbers covering the last 24 hour period as well as since 27 January 2020. 
+
+### Implementation
+The dashboards are automated and update every day at 14:00 CET. The update frequency can be adjusted depending on the level of alertness/attention regarding covid-19. Since the summer of 2022, only the key national numbers interface is updated daily, while the rest of the dashboard is updated only on weekdays.
+
 ## Disease Dashboards (SVA, Sweden)
 
 The National Veterinary Institute (SVA) is the largest veterinary laboratory in Sweden. Every day our microbiology, pathology and sequencing departments analyse a large amount of samples, which in turn produces large amount of data. These data need to be summarised and translated into actionable information in order to fulfil one our main missions: surveillance communication. We need to effectively communicate the epidemiological situation of Sweden to disease experts, as well as animal owners and the general public.
