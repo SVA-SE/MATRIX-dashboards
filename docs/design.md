@@ -41,6 +41,8 @@ _TODO: downloadable worksheet for content planning workshop_
 
 **Identifying the problems, needs and expectations of the users** is the key to building a successful and useful product. It would be unwise to develop the exact same dashboard for a small set of experts and for the general public. Likewise, you, as for instance a scientist developing a dashboard, have a different level of knowledge and familiarity with the content of the dashboard than the intended user. Doing detailed user profiling will help to craft a platform fully targeted to the needs of the users.
 
+User profiling is a process where you create a fictional user persona for each distinct group of target users. This set of user personas act as a simplified representation of your user base, with characteristics, limitations, and expectations that are similar to those of your users. This  concretises the plurality of your user base into a simple model of needs and limitations, which should guide your design choices and help you to craft a more user-friendly platform.
+
 _TODO: downloadable worksheet for user profiling process_
 
 ### Layout design
