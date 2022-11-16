@@ -43,6 +43,8 @@ _TODO: downloadable worksheet for content planning workshop_
 
 User profiling is a process where you create a fictional user persona for each distinct group of target users. This set of user personas act as a simplified representation of your user base, with characteristics, limitations, and expectations that are similar to those of your users. This  concretises the plurality of your user base into a simple model of needs and limitations, which should guide your design choices and help you to craft a more user-friendly platform.
 
+_TODO: Add example of user personas from presentation_
+
 _TODO: downloadable worksheet for user profiling process_
 
 ### Layout design
