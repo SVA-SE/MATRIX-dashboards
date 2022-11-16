@@ -16,16 +16,16 @@ nav_order: 4
 {:toc}
 </details>
 
-Design refers here to the substantial process of both **content planning** and **visual design**. Readers of this manual who are familiar with the data that will populate the dashboard, will most likely be more concerned and more skilled in the content planning phase. For the sake of completeness, this chapter will cover some principles of visual design and some considerations regarding dashboard design specifically. However, for all projects, but especially complex ones and for public-facing dashboard, it is highly recommended to enlist the help of a web designer, for example from the Communication Department of your institute.
+Design refers here to the substantial process of both **content planning** and **visual design**. Readers of this manual who are familiar with the data that will populate the dashboard, will most likely be more concerned and more skilled in the content planning phase. For the sake of completeness, this chapter will also cover some principles of visual design and some considerations regarding dashboard design specifically. However, for all projects, but especially complex ones and for public-facing dashboards, it is highly recommended to enlist the help of a web designer, for example from the Communication Department of your institute.
 
-This design section is not exhaustive but is meant as an introduction and a guide for the dashboard design process.
+This design section is not exhaustive but is meant as an introduction and a guide to the process of dashboard design.
 
 
 ## Content Planning
 
 The content planning phase is crucial to create a good product that will fulfill its purpose and properly meet the needs of the user. Going through this phase meticulously will give clarity for the upcoming development, allow scalability and flexibility, and save time and resources in the long run.
 
-The steps involved in this phase are to (1) define in detail what your product will be, (2) identify the profile(s) of the intended users and (3) design the content flow and layout of your dashboard.
+The steps involved in this phase are to (1) define in detail what your product will be, (2) identify the profile(s) of the intended users and (3) design the content flow and the layout of your dashboard.
 
 
 ### Know your product
@@ -124,7 +124,7 @@ More information on web accessibility:
 
 Principles of visual design are tools such as emphasis, contrast, similarity, repetition and alignment (There seems to be as many list of these principles as there are designers, with varying numbers, nomenclature and definition). A designer uses these tools to craft a specific experience for the viewer, by putting focus on specific elements, directing the eye along a specific path, and increasing visual interest and appeal. There are many wrong ways to do it, and no single right way, which is why the input of an experienced designer will always be beneficial.
 
-If you don't feel confident in this task, **the safest option is always to keep things simple**. If you have a solid content structure from the previous step, that can be enough. Most development tools will output a default product with a decent basic UI. Custom visual design will help creating a better product, but it is not strictly necessary.
+If you don't feel confident in this task, **the safest option is always to keep things simple**. If you have a solid content structure from the previous step, that can be enough. Most development tools will output a product with a decent default UI that can be sufficent. Custom visual design will help creating a better product, but it is not strictly necessary.
 
 Here are some ways these principles can be used to craft a better UI and UX:
 - **Hierarchy**: having a good visual hierarchy between different elements will help the user understand the structure of the website better (having title, headers and subheaders with varying degrees of emphasis), and reach the important information faster (using bold text for important sentences, but not overusing it). 
@@ -138,7 +138,7 @@ If you are interested, you can find more information here:
 ### Tips for better dashboard design
 
 Some miscellaneous tips to improving the UI or UX of your dashboard:
-- Involve your Communications Department early in the process! (if possible)
+- Involve your Communications Department early in the process!
 - Various UI features that will improve UX:
   - Back to top button for long linear pages
   - Spinning wheel on loading elements to show that something is happening and the user should just wait
