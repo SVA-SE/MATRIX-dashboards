@@ -32,14 +32,16 @@ The steps involved in this phase are to (1) define in detail what your product w
 
 Content planning begins with clearly identifying the nature, aim, scope and limitations of your product. 
 
-_TODO: list helpful questions for product definitions_
+Please refer to the "[Step-by-Step Guide, section 1](https://sva-se.github.io/MATRIX-dashboards/docs/step-by-step/#planning-the-dashboard)" page of this Information Centre for further information.
+
+_TODO: downloadable worksheet for content planning workshop_
 
 
 ### Know your users
 
 **Identifying the problems, needs and expectations of the users** is the key to building a successful and useful product. It would be unwise to develop the exact same dashboard for a small set of experts and for the general public. Likewise, you, as for instance a scientist developing a dashboard, have a different level of knowledge and familiarity with the content of the dashboard than the intended user. Doing detailed user profiling will help to craft a platform fully targeted to the needs of the users.
 
-_TODO: go through user profiling process_
+_TODO: downloadable worksheet for user profiling process_
 
 ### Layout design
 
