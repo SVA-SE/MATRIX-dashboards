@@ -128,7 +128,7 @@ The OH-EpiCap tool has been developed by the MATRIX consortium, a joint integrat
 More information is available here: [OH-EpiCap tool flyer](https://onehealthejp.eu/wp-content/uploads/2022/06/OHEJP_MATRIX_OH-EpiCap_flyer_2022_06.pdf) and [OH-EpiCap tool user guide](https://onehealthejp.eu/wp-content/uploads/2022/06/OHEJP_MATRIX_OH-EpiCap_user_guide_2022_06.pdf).
 
 ## Prioritisation tool for targeting the monitoring of veterinary pharmaceuticals in soils (INIA, Spain)
-[https://eisg-apps.shinyapps.io/App_for_SM/](https://eisg-apps.shinyapps.io/App_for_SM/)
+**[https://eisg-apps.shinyapps.io/App_for_SM/](https://eisg-apps.shinyapps.io/App_for_SM/)**
 
 Since most veterinary antibiotics employed in livestock production are excreted essentially unaltered, they have been identified as major contributors of environmental contamination. Specifically, the presence of antimicrobial resistance (AMR) determinants has been recognised as a global hazard. However, the efforts of monitoring antimicrobial and AMR are focused on humans and livestock, neglecting the environment. Although selected substances are monitored in surface and ground-waters under the Water Framework Directive, no European regulatory framework for antibiotics contamination in soils is currently in place.
 
@@ -137,7 +137,7 @@ The European Union institutions recognized this gap. In March 2019, the European
 In this frame, this approach offers a prototype prioritisation tool applicable to soils to identify which sampling sites and antibiotics require more attention as part of monitoring efforts. It is an open source, providing dashboard features in a graphical user interface (Shiny App). To facilitate the implementation of the method in other EU countries, for which appropriate data are available, a script in R to run the model is available.
 
 ### Method
-The model is described in detail in an open journal: Rodríguez, A., Iglesias, I., de la Torre, A. (2022). Prioritisation tool for targeting the monitoring of veterinary pharmaceuticals in soils at a national level: The case of Spain. European Journal of Soil Science, 73(4), e13268. https://doi.org/10.1111/ejss.13
+The model is described in detail in an open journal: Rodríguez, A., Iglesias, I., de la Torre, A. (2022). Prioritisation tool for targeting the monitoring of veterinary pharmaceuticals in soils at a national level: The case of Spain. European Journal of Soil Science, 73(4), e13268. [https://doi.org/10.1111/ejss.13](https://doi.org/10.1111/ejss.13).
 
 ### Data
 The approach comprises three steps: antibiotic load estimation, antibiotic fate estimation and soil vulnerability, giving an approximation of the likelihood of antibiotic presence in soils. It was applied to two different scenarios corresponding to the main methods of manure management in soils: (i) manure produced by intensively reared animals is applied as fertiliser to agricultural soils, and (ii) manure is added directly to pastures by animals kept outdoors for much or most of their lives.
@@ -147,7 +147,7 @@ Antibiotic load estimation consisted of the combination of antibiotic use data b
 ### Technical implementation
 The model has been developed in R code. It estimates antibiotic load, fate and soil vulnerability. The script works from the following input parameters: livestock population, antibiotic excretion rate and use proportion, Koc and DT50, as well as crop land and pasture scenarios. The script generates vulnerability maps by livestock species, antibiotics and scenarios
 
-A web interface is available in a local Shiny app which provides a user interface for interactively investigating the vulnerability maps at different livestock productions and scenarios (https://eisg-apps.shinyapps.io/App_for_SM/).
+A web interface is available in a local Shiny app which provides a user interface for interactively investigating the vulnerability maps at different livestock productions and scenarios.
 
 
 ## RESAPATH online (ANSES, France)
