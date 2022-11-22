@@ -55,7 +55,7 @@ With the insight gained from product definition and user profiling, it is now po
 
 In this step, you decide which basic website elements (logo, menu, footer, ...) will be present, and where to display them on the page. This will be in parts dependent on the technical solution you have chosen to develop the dashboard, and how much flexibility it allows.
 
-In general, **don't get too creative**. Most people are familiar with the internet and have a set of expectations when it comes to navigating a website. Deviating from these expectations will only make your dashboard harder to use.
+In general, **do not get too creative**. Most people are familiar with the internet and have a set of expectations when it comes to navigating a website. Deviating from these expectations will only make your dashboard harder to use.
 
 Basics web elements are expected to be found as such:
 
@@ -82,7 +82,7 @@ In this step you start deciding on the content (text, maps, graphs, interactive 
 
 The goal is to **divide and organise the information in meaningful blocks and create a natural flow of content that guides the user** to the information they need. Based on the product definition and the overview of your users' needs, you can decide which content is needed, how to structure it and in which order it should be introduced. Will you have tabs and subtabs? What graphs or visualisations will you have? Are they interactive? What text is needed to accompany the data?
 
-_For example, in the Norwegian One Health dashboard for the surveillance of Campylobacter, we have divided the website in several tabs and subtabs based on what the users will come to the website for. The landing page (One Health > Campylobacter surveillance) shows at a glance the most important information, relevant to all users. More detailed information is put aside in other tabs, where the user can find them if and when they need it._
+_For example, in the Norwegian One Health dashboard for the surveillance of Campylobacter ([Swanson et al., 2022](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2022.27.43.2101121)), the website is divided in several tabs and subtabs based on what the users will come to the website for. The landing page (One Health > Campylobacter surveillance) shows at a glance the most important information, relevant to all users. More detailed information is put aside in other tabs, where the user can find them if and when they need it._
 - _One Health_
   - _Campylobacter surveillance: model results, interactive outbreak risk maps and combined multi-sectorial data_
   - _About Campylobacter: detailed info on Campylobacter and its impact on humans, animals and its relationship to the environment_
@@ -128,14 +128,14 @@ More information on web accessibility:
 
 ### Principles of Visual Design
 
-Principles of visual design are tools such as emphasis, contrast, similarity, repetition and alignment (There seems to be as many list of these principles as there are designers, with varying numbers, nomenclature and definition). A designer uses these tools to craft a specific experience for the viewer, by putting focus on specific elements, directing the eye along a specific path, and increasing visual interest and appeal. There are many wrong ways to do it, and no single right way, which is why the input of an experienced designer will always be beneficial.
+Principles of visual design include tools such as emphasis, contrast, similarity, repetition and alignment. There appears to be as many lists of these principles as there are designers, with varying numbers, nomenclature and definition. A designer uses these tools to craft a specific experience for the viewer, by putting focus on specific elements, directing the eye along a specific path, and increasing visual interest and appeal. There are many wrong ways to do it, and no single right way, which is why the input of an experienced designer will always be beneficial.
 
 If you don't feel confident in this task, **the safest option is always to keep things simple**. If you have a solid content structure from the previous step, that can be enough. Most development tools will output a product with a decent default UI that can be sufficent. Custom visual design will help creating a better product, but it is not strictly necessary.
 
 Here are some ways these principles can be used to craft a better UI and UX:
 - **Hierarchy**: having a good visual hierarchy between different elements will help the user understand the structure of the website better (having title, headers and subheaders with varying degrees of emphasis), and reach the important information faster (using bold text for important sentences, but not overusing it). 
 - Unity or **consistency**: having a unified design system (a set of decisions regarding font type, font size, color, graphic style) throughout the dashboard will help the user understand the structure of the content better (e.g., important takeaway messages will be displayed in bold italic). You don't want to start introducing exceptions (e.g., an important sentence displayed in bold underline), and break the underlying patterns that the user has learned about your platform. Breaking such patterns will make it harder for the user to find and understand the information presented to them. It can be difficult to achieve if you are working collaboratively, or even alone along a longer time period. It is thus recommended to decide on a design system prior development, to avoid inconsistencies. You can also do a full redesign during development. Check the consistency in text colour and emphasis (bold/italic/underline), in spacing between paragraphs and around figures, in page structure for multi-tabs dashboards, in graph and map styles, in the vocabulary used throughout the website...
-- White space or **negative space**: creating breathing room around elements will allow the user's eye to land easier on different blocks of information and their mind to rest and refocus. It will help you show a clearer structure of content, and put emphasis on what is important. You can use margins around graphs, increase the lineheight of text, and increase the space between paragraphs.
+- White space or **negative space**: creating breathing room around elements will allow the user's eye to land easier on different blocks of information and their mind to rest and refocus. It will help you show a clearer structure of content, and put emphasis on what is important. You can, for example, use margins around graphs, increase the lineheight of text, and increase the space between paragraphs.
 
 If you are interested, you can find more information here:
 - [Short video on the Principles of Design](https://www.youtube.com/watch?v=9EPTM91TBDU)
