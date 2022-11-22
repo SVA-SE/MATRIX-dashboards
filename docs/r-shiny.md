@@ -28,34 +28,34 @@ nav_order: 5
 
 **Technical skills:**
 
-- fundamental:
-  - knowledge of R
-- beneficial:
-  - understanding of basic web languages and website structure
-  - knowledge of HTML and CSS for visual design
-  - knowledge of JS for more advanced custom UI features
+- Fundamental:
+  - Knowledge of R
+- Beneficial:
+  - Understanding of basic web languages and website structure
+  - Knowledge of HTML and CSS for visual design
+  - Knowledge of JS for more advanced custom UI features
 
 **Infrastructure:**
 
-- any computer with R
-- a version control workflow (e.g., git) is very helpful, especially for collaboration
+- Any computer where you can install R
+- A version control workflow (e.g., git) is very helpful and highly recommended, especially for collaborative projects
 - _TODO: add info on servers, deployment, etc..._
 
 ### Strengths and Weaknesses
 
 **Strengths:**
 
-- a single person with some R knowledge can easily create a dashboard from scratch
-- seamless integration to the data flow (data cleaning, manipulation, analyses, visualisation)
-- access to the whole set of R libraries for data manipulation, analysis and visualisation
-- very modular - possibility to add blocks of text or graphs in almost any layout you want.
-- good visual theming options
-- possibility to integrate CSS, JS, custom HTML templates, CSS pre-processors, etc...
+- A single person with some R knowledge can easily create a dashboard from scratch
+- Seamless integration to the data flow (data cleaning, manipulation, analyses, visualisation)
+- Access to the whole set of R libraries for data manipulation, analysis and visualisation
+- Very modular - possibility to add blocks of text or graphs in almost any layout you want.
+- Good visual theming options
+- Possibility to integrate CSS, JS, custom HTML templates, CSS pre-processors, etc...
 
 **Weaknesses:**
 
-- the code behind complex dashboards can become quite intricate
-- advanced customisation of visual design and page layout requires good knowledge of HTML and CSS
+- The code behind complex dashboards can become quite intricate
+- Advanced customisation of visual design and page layout requires good knowledge of HTML and CSS
 
 ## Getting Started
 
