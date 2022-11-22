@@ -58,7 +58,7 @@ The dashboards are automated and update every day at 14:00 CET. The update frequ
 
 ## Disease Dashboards (SVA, Sweden)
 
-The National Veterinary Institute (SVA) is the largest veterinary laboratory in Sweden. Every day our microbiology, pathology and sequencing departments analyse a large amount of samples, which in turn produces large amount of data. These data need to be summarised and translated into actionable information in order to fulfil one our main missions: surveillance communication. We need to effectively communicate the epidemiological situation of Sweden to disease experts, as well as animal owners and the general public.
+The National Veterinary Institute (SVA) is the largest veterinary laboratory in Sweden. Every day the microbiology, pathology and sequencing departments analyse a large amount of samples, which in turn produces large amount of data. These data need to be summarised and translated into actionable information in order to fulfil one our main missions: surveillance communication. We need to effectively communicate the epidemiological situation of Sweden to disease experts, as well as animal owners and the general public.
 
 [Surveillance of infectious diseases in animals and humans](https://www.sva.se/amnesomraden/smittlage/sjukdomsrapporter-om-sva-s-overvakning/) ("the surveillance report") is the annual report describing the surveillance activities carried out in Sweden during the year. The report covers surveillance for important animal diseases and zoonotic agents in humans, food, feed and animals, carried out and compiled by experts from several Swedish governmental agencies, university and private industry with surveillance mandates along the entire food chain, from farm to fork. The surveillance report is published by the National Veterinary Institute (SVA), in collaboration with the Swedish Board of Agriculture, the Public Health Agency and the Swedish Food Agency.
 
@@ -68,7 +68,7 @@ To better highlight the important findings presented in the report, and to stren
 The data presented in these disease dashboards will come from two main sources:
 
 * The surveillance report, which provides manually curated datasets and expert analyses on an annual basis. This will provide a historical overview and in-depth conclusions about the status of the disease.
-* Our internal LIMS systems and databases, which are updated daily. This will give a snapshot of the current situation, allowing experts to obtain information and take action in a timely and robust manner.
+* Internal databases for storage of laboratory results and surveillance data, which are updated daily. This will give a snapshot of the current disease situation, allowing experts to obtain information and take action in a timely and robust manner.
 
 ### Layout
 The dashboards will be structured as a traditional side-menu website, with different tabs covering different topics. It will have full interactive capabilities, meaning that all data-driven content (maps, tables, graphs, etc) can be filtered and customised to the user's needs.
@@ -125,7 +125,7 @@ Some of the features of the tool include:
 
 The OH-EpiCap tool has been developed by the MATRIX consortium, a joint integrative project funded by the One Health European Joint Programme. The MATRIX consortium aims to advance the implementation of OH surveillance in practice, by building onto existing resources, adding value to them, and creating synergies among the sectors at the national level. One activity has been the development of the generic benchmarking tool presented here, for characterizing, monitoring, and evaluating epidemiological surveillance capacities and capabilities, which directly contribute to OH surveillance. The tool aims to identify and describe the collaborations among actors involved in the surveillance of a hazard and to characterize the OH-ness of the surveillance system. The tool will support identification of areas that could lead to improvements in existing OH surveillance capacities.
 
-More information is available here: [OH-EpiCap tool flyer](https://onehealthejp.eu/wp-content/uploads/2022/06/OHEJP_MATRIX_OH-EpiCap_flyer_2022_06.pdf) and [OH-EpiCap tool user guide](https://onehealthejp.eu/wp-content/uploads/2022/06/OHEJP_MATRIX_OH-EpiCap_user_guide_2022_06.pdf).
+More information is available here: [OH-EpiCap tool flyer](https://onehealthejp.eu/wp-content/uploads/2022/11/OHEJP-MATRIX_OH-EpiCap-flyer.pdf) and [OH-EpiCap tool user guide](https://onehealthejp.eu/wp-content/uploads/2022/06/OHEJP_MATRIX_OH-EpiCap_user_guide_2022_06.pdf).
 
 ## Prioritisation tool for targeting the monitoring of veterinary pharmaceuticals in soils (INIA, Spain)
 **[https://eisg-apps.shinyapps.io/App_for_SM/](https://eisg-apps.shinyapps.io/App_for_SM/)**

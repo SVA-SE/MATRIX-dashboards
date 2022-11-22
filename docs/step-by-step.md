@@ -4,7 +4,7 @@ title: "Step-by-Step Guide"
 nav_order: 2
 ---
 
-# Developing a One Health Surveillance Dashboard: A Step-by-Step Guide
+# Developing an OHS Dashboard: A Step-by-Step Guide
 {: .no_toc }
 
 <details open markdown="block">
@@ -16,7 +16,7 @@ nav_order: 2
 {:toc}
 </details>
 
-So you want to build a dashboard? Where to begin? This guide aims to answer that question and help you through the process of developing a dashboard for One Health Surveillance. Some sections of the guide will refer to other sections of the Information Centre for practical examples and further reading.
+So you want to build a dashboard? Where to begin? This guide aims to answer that question and help you through the process of developing a dashboard for OHS. Some sections of the guide will refer to other sections of the Information Centre for practical examples and further reading.
 
 To achieve an optimal result, there are certain factors that need to be addressed in the various phases of the dashboard development process. These can be divided into three stages: 1) planning the dashboard, 2) constructing the dashboard, and 3) dashboard maintenance and outreach.
 

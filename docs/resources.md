@@ -18,7 +18,7 @@ nav_order: 7
 
 ## MATRIX Resources
 
-### WP6 Meetings and Presentations
+### Work Package 6 Meetings and Presentations
 Work Package 6 has arranged monthly meetings in which members have an opportunity to present or discuss topics relevant for the work package.
 
 In the table below are all held presentations that may be of interest for OHS dashboard developers:
