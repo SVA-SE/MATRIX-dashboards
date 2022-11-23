@@ -170,6 +170,35 @@ This interface allows the visualization of results by selecting different combin
 - Trends: curves of temporal evolution of the proportions of susceptible isolates with their 95% confidence intervals.
 All graphs are downloadable as images along with their associated data in Excel© format.
 
+## SARS-BOARD (INIA-CSIC, Spain)
+**[https://gis.inia.es/portal/apps/opsdashboard/index.html#/5d44a9b0d8fc427e836dd266ef1125a6](https://gis.inia.es/portal/apps/opsdashboard/index.html#/5d44a9b0d8fc427e836dd266ef1125a6)**
+
+The aim of the SARS-BOARD dashboard is to provide an interactive tool for exploring SARS-CoV-2 outbreaks in all types of animals (captive, domestic, wild and pets).
+
+The dashboard was authored by the [Epidemiology and Environmental Health](https://www.inia.es/investigacion/animal/sanidad/Epidemiolog%C3%ADa y sanidad ambiental/Pages/Home_old.aspx?PageName=Epidemiolog%C3%ADa%20y%20sanidad%20ambiental) group at the Center for Animal Health Research (CISA), INIA-CSIC. It was funded by and developed within the OHEJP [COVRIN](https://onehealthejp.eu/jip-covrin/) project. GIS development was done by [Innvel](http://www.innvel.com/en/). The technical platform of choice was [ArcGIS](https://www.arcgis.com/index.html).
+
+### Data Sources
+
+- SARS-CoV-2 outbreaks: World Animal Health Information System ([WAHIS](https://wahis.woah.org/#/home)) of the World Organisation for Animal Health (WOAH, formerly OIE). Weekly download of notifications.
+- Climate data: Climate Data Online ([CDO](https://www.ncei.noaa.gov/cdo-web/)) 
+- Socioeconomical factors: [World Bank Data](https://www.worldbank.org/en/home)
+
+### Definitions of Animal Types
+
+- Captive: Refers to wild animals with phenotypes unaffected by human selection but that are captive, for example zoo animals
+- Domestic: Livestock or farms (including fur farms)
+- Wild: an animal that has a phenotype unaffected by human selection and lives independent of direct human supervision or control. Included here are feral animals (animals of a domesticated species that now live without direct human supervision or control)
+- Pets: animals that live directly under human supervision or control, typically for companionship (dogs, cats, rabbits, etc.) 
+
+### Layout
+
+The SARS-BOARD contains three tabs:
+
+1.	The historical outbreak records tab is the main page for exploring and visualising data. This section includes map of SARS-CoV-2 outbreaks in animals from 2020 to present at the top, a time slider of outbreak notifications at the bottom, and a list of interactive graphics on the right related to the region of the total or selection of outbreaks that could be developed in the map or in the time graphic. The time slider tool enables users to wind back time and view the global situation at any given moment since 2020, as well as to select time periods by species and regions. By clicking on any outbreak, a pop-up window with outbreak information appears.
+2.	The tab "Country data” includes an interactive historical map of monthly mean temperatures and SARS-CoV-2 outbreaks in animals. Each monthly temperature layer can be turned on and off as an interactive background map. Potential socioeconomic factors related to SARS-CoV-2 outbreaks notifications in animals have been included.
+3.	The tab "World globe" allows users to explore SARS-CoV-2 outbreak notifications in animals on the entire globe including a place search tool.
+
+
 ## Sykdomspulsen One Health (NIPH & NVI, Norway)
 
 The Sykdomspulsen One Health website is a pilot project for the surveillance of Campylobacter infections in Norway. It is a collaboration between the Norwegian Institute of Public Health, the Norwegian Veterinary Institute and the Norwegian Food Safety Authorities. It is currently a closed website.
