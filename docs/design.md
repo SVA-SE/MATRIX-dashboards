@@ -55,7 +55,7 @@ With the insight gained from product definition and user profiling, it is now po
 
 In this step, you decide which basic website elements (logo, menu, footer, …) will be present, and where to display them on the page. This will be in parts dependent on the technical solution you have chosen to develop the dashboard, and how much flexibility it allows.
 
-In general, **do not get too creative**. Most people are familiar with the internet and have a set of expectations when it comes to navigating a website. Deviating from these expectations will only make your dashboard harder to use.
+In general, **do not get too creative**. Most people are familiar with the internet and have a set of expectations when it comes to navigating a website  (see [Jakob's Law](https://lawsofux.com/jakobs-law/)). Deviating from these expectations will only make your dashboard harder to use.
 
 Basic web elements which are expected to be found include the following:
 
