@@ -70,7 +70,7 @@ The choice of a solution for development and hosting also affects the sustainabi
 
 ### Feedback Collection
 
-Receiving feedback on the data, design and user friendliness of the dashboard is a very important part of creating an optimal product that is widely used. This can be done using one or a combination of several tools, including questionnaires, site analytics tools (e.g., [Google Analytics](https://analytics.google.com/)), meetings, and reference groups (more on that below). Another option could be embedding a feedback and questions and answers (Q&A) form into the dashboard itself. However, this needs to be designed in a non-intrusive way -- actively asking the user for feedback through pop-ups or similar is likely to act as a deterrent and reduce the probability of receiving input.
+Receiving feedback on the data, design and user friendliness of the dashboard is a very important part of creating an optimal product that is widely used. This can be done using one or a combination of several tools, including questionnaires, site analytics tools (e.g., [Google Analytics](https://analytics.google.com/), but **note** that there may be data protection restrictions regarding the use of such third-party services), meetings, and reference groups (more on that below). Another option could be embedding a feedback and questions and answers (Q&A) form into the dashboard itself. However, this needs to be designed in a non-intrusive way -- actively asking the user for feedback through pop-ups or similar is likely to act as a deterrent and reduce the probability of receiving input.
 
 ### Outreach
 
