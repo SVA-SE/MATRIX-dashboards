@@ -36,7 +36,8 @@ Content planning begins with clearly identifying the nature, aim, scope and limi
 
 The following worksheet can help you and your team conduct a content planning workshop to define the characteristics of your product.
 
-
+![Printable .pdf worksheet](/MATRIX-dashboards/assets/docs_content_planning_printable.pdf)
+![Digital .docx worksheet](/MATRIX-dashboards/assets/docs_content_planning_digital.docx)
 
 
 ### Know your users
