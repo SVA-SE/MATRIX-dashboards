@@ -32,7 +32,7 @@ The steps involved in this phase are to (1) define in detail what your product w
 
 Content planning begins with clearly identifying the nature, aim, scope and limitations of your product.
 
- For further information, please see ["Planning the dashboard"](https://sva-se.github.io/MATRIX-dashboards/docs/step-by-step/#planning-the-dashboard) in the step-by-step guide of this Information Centre.
+ For further information, please see ["Planning the dashboard"](/MATRIX-dashboards/docs/step-by-step/#planning-the-dashboard) in the step-by-step guide of this Information Centre.
 
 The following worksheet can help you and your team conduct a content planning workshop to define the characteristics of your product.
 
