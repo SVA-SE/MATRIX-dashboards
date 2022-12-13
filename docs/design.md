@@ -36,9 +36,9 @@ Content planning begins with clearly identifying the nature, aim, scope and limi
 
 The following worksheet can help you and your team conduct a content planning workshop to define the characteristics of your product.
 
-[Printable .pdf worksheet](/MATRIX-dashboards/assets/docs_content_planning_printable.pdf)
+<a href="/MATRIX-dashboards/assets/docs_content_planning_printable.pdf" target="_blank">Printable .pdf worksheet</a>
 
-[Digital .docx worksheet](/MATRIX-dashboards/assets/docs_content_planning_digital.docx)
+<a href="/MATRIX-dashboards/assets/docs_content_planning_digital.docx" target="_blank">Digital .docx worksheet</a>
 
 
 ### Know your users
@@ -59,7 +59,7 @@ With the insight gained from product definition and user profiling, it is now po
 
 In this step, you decide which basic website elements (logo, menu, footer, …) will be present, and where to display them on the page. This will be in parts dependent on the technical solution you have chosen to develop the dashboard, and how much flexibility it allows.
 
-In general, **do not try to reinvent the wheel**. Most people are familiar with the internet and have a set of expectations when it comes to navigating a website  (see [Jakob's Law](https://lawsofux.com/jakobs-law/)). Deviating from these expectations will only make your dashboard harder to use.
+In general, **do not try to reinvent the wheel**. Most people are familiar with the internet and have a set of expectations when it comes to navigating a website  (see <a href="https://lawsofux.com/jakobs-law/" target="_blank">Jakob's Law</a>). Deviating from these expectations will only make your dashboard harder to use.
 
 Basic web elements which are expected to be found include the following:
 
@@ -117,8 +117,8 @@ When creating website, you should always make sure that your product is accessib
 This is especially important if you are developing your own custom code with basic HTML/CSS/JS. But note that some dashboard-making solutions are still lagging behind on some aspects (e.g., some input fields in R shiny are not yet keyboard accessible, but upcoming versions should fix this). You need to do a concerted effort to go through all aspects of your website and make sure that you are as accessible as possible.
 
 More information on web accessibility:
-- [W3 Web Accessibility Inititative](https://www.w3.org/WAI/fundamentals/) - extensive resources, standards and guidelines
-- [Mozilla developer's tutorials on accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility) - very pedagogic and understandable learning material
+- <a href="https://www.w3.org/WAI/fundamentals/" target="_blank">W3 Web Accessibility Inititative</a> - extensive resources, standards and guidelines
+- <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility" target="_blank">Mozilla developer's tutorials on accessibility</a> - very pedagogic and understandable learning material
 
 ### Principles of Visual Design
 
@@ -132,7 +132,7 @@ Here are some ways these principles can be used to craft a better UI and UX:
 - White space or **negative space**: creating breathing room around elements will allow the user's eye to land easier on different blocks of information and their mind to rest and refocus. It will help you show a clearer structure of content, and put emphasis on what is important. You can, for example, use margins around graphs, increase the line height of text, and increase the space between paragraphs.
 
 If you are interested, you can find more information here:
-- [Short video on the Principles of Design](https://www.youtube.com/watch?v=9EPTM91TBDU)
+- <a href="https://www.youtube.com/watch?v=9EPTM91TBDU" target="_blank">Short video on the Principles of Design</a>
 - Simple web browser or Youtube search for "Fundamentals of web design", "Principles of visual design" or the like. 
 
 ### Tips for better dashboard design

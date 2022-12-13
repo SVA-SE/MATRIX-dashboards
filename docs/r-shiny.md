@@ -20,9 +20,9 @@ nav_order: 5
 
 ### What is R Shiny?
 
-[R](https://cran.r-project.org/) is a scripting language and analysis software used globally by researchers and data scientists for statistical computing and data analysis.  It is open source and proposes a large set of libraries to achieve a range of analysis, data manipulation and visualisation.
+<a href="https://cran.r-project.org/" target="_blank">R</a> is a scripting language and analysis software used globally by researchers and data scientists for statistical computing and data analysis.  It is open source and proposes a large set of libraries to achieve a range of analysis, data manipulation and visualisation.
 
-[Shiny](https://shiny.rstudio.com/) is a library for R, allowing a developer to create a dahsboard with interactive graphs, by writing R code only. No knowledge of website development languages (HTML, CSS and JS) is required. If the developer has knowledge of these basic web development languages, it is possible to integrate custom scripts and stylesheets to a Shiny dashboard to create a more complex and customisable website.
+<a href="https://shiny.rstudio.com/" target="_blank">Shiny</a> is a library for R, allowing a developer to create a dahsboard with interactive graphs, by writing R code only. No knowledge of website development languages (HTML, CSS and JS) is required. If the developer has knowledge of these basic web development languages, it is possible to integrate custom scripts and stylesheets to a Shiny dashboard to create a more complex and customisable website.
 
 ### Implementation Requirements
 
@@ -63,9 +63,9 @@ nav_order: 5
 
 It is possible to start making Shiny dashboard with entry- to intermediate-level R skills.
 
-The [2.5H video tutorial](https://shiny.rstudio.com/tutorial/) on R Shiny's main page is a very good start and will take you through the structure of Shiny apps, the basics of layout and all reactivity functions.
+The <a href="https://shiny.rstudio.com/tutorial/" target="_blank">2.5H video tutorial</a> on R Shiny's main page is a very good start and will take you through the structure of Shiny apps, the basics of layout and all reactivity functions.
 
-To go further, the [Articles page](https://shiny.rstudio.com/articles) on R Shiny's main page has detailed information on performance optimisation, UI and integration of HTML, CSS and JS.
+To go further, the <a href="https://shiny.rstudio.com/articles" target="_blank">Articles page</a> on R Shiny's main page has detailed information on performance optimisation, UI and integration of HTML, CSS and JS.
 
 Eventually, making better dashboards will mean improving the delivery of information to the user through clearer content, better content flow and better UI and UX design.
 
