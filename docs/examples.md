@@ -171,7 +171,7 @@ This interface allows the visualization of results by selecting different combin
 All graphs are downloadable as images along with their associated data in Excel© format.
 
 ## SARS-BOARD (INIA-CSIC, Spain)
-**<a href="https://gis.inia.es/portal/apps/opsdashboard/index.html#/5d44a9b0d8fc427e836dd266ef1125a6" target="_blank">https://gis.inia.es/portal/apps/opsdashboard/index.html#/5d44a9b0d8fc427e836dd266ef1125a6</a>**
+**<a href="https://www.arcgis.com/apps/dashboards/1ddf56d1b9764372a7d5ff4e83485174" target="_blank">https://www.arcgis.com/apps/dashboards/1ddf56d1b9764372a7d5ff4e83485174</a>**
 
 The aim of the SARS-BOARD dashboard is to provide an interactive tool for exploring SARS-CoV-2 outbreaks in all types of animals (captive, domestic, wild and pets).
 
