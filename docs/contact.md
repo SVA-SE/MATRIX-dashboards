@@ -16,6 +16,8 @@ nav_order: 8
 {:toc}
 </details>
 
+## DIC Management and Website Issues
+Wiktor Gustafsson, SVA ([wiktor.gustafsson@sva.se](mailto:wiktor.gustafsson@sva.se))
 ## MATRIX
 
 Leader: Guido Benedetti, SSI ([gube@ssi.dk](mailto:gube@ssi.dk))
