@@ -35,32 +35,32 @@ The model utilizes both R and OpenBUGS, which need to be installed first. The R 
 ## COVID-19 Dashboard (SSI, Denmark)
 **<a href="https://experience.arcgis.com/experience/242ec2acc014456295189631586f1d26" target="_blank">https://experience.arcgis.com/experience/242ec2acc014456295189631586f1d26</a>**
 
-### Data 
-The data used in this dashboard comes from <a href="https://covid19.ssi.dk/datakilder-og-definitioner" target="_blank">several registers and surveillance systems</a>:   
+### Data
+The data used in this dashboard comes from <a href="https://covid19.ssi.dk/datakilder-og-definitioner" target="_blank">several registers and surveillance systems</a>:
 
 * The Central Population Register (CPR) provides data regarding address, nationality, and death date
 * The Cause of Death Register (DAR) provides data on the official cause of death
-* Patient Registers (LPR & LPR3) provide data on patients currently admitted at hospitals in Denmark 
-* Sentinel surveillance from private practitioners provides data on patients seen for moderate illness 
-* <a href="https://covid19.ssi.dk/overvagningsdata/covidmeter" target="_blank">COVIDmeter</a>, a platform that allows individuals to report whether or not they have had COVID-related symptoms each week, and other home-based reporting methods provide data on individuals with mild to no symptoms 
-* The Authorizations registry monitors the infection among healthcare personnel 
+* Patient Registers (LPR & LPR3) provide data on patients currently admitted at hospitals in Denmark
+* Sentinel surveillance from private practitioners provides data on patients seen for moderate illness
+* <a href="https://covid19.ssi.dk/overvagningsdata/covidmeter" target="_blank">COVIDmeter</a>, a platform that allows individuals to report whether or not they have had COVID-related symptoms each week, and other home-based reporting methods provide data on individuals with mild to no symptoms
+* The Authorizations registry monitors the infection among healthcare personnel
 * MIS3 is the central database where all patients with diseases with reporting obligation are registered. Covid-19 cases were reported individually but now the reporting is done by the laboratories
 * These registers are then coupled with The Danish Microbiological Database (MiBA), which provides data on microbiological test results across Denmark both from private and public test centers
 
 #### Data pipeline
-Data is taken from the MiBA database (raw sample results), standardized in the KIDS (Keys to Infectious Diseases System) data mart, and then processed with the help of SAS and Python, and finally ArcGIS. ArcGIS was chosen from among other possible tools because the interface is fairly user-friendly, it is great for geographical data visualization, and it does not require as sophisticated coding skills as some of the other solutions.  
- 
-### Layout 
-The dashboard has different interfaces, which allow the user to choose whether they would like to see data regarding infection or vaccination on either a municipal or a regional level. Once an interface has been chosen, the viewer can see various relevant numbers, graphs and tables, including an interactive map of Denmark broken down by the aforementioned level of the user’s choosing. Some figures are also interactive, allowing the user to choose a municipality or region to view in greater detail. Additionally, the collection of dashboards has an interface displaying key national numbers covering the last 24 hour period as well as since 27 January 2020. 
+Data is taken from the MiBA database (raw sample results), standardized in the KIDS (Keys to Infectious Diseases System) data mart, and then processed with the help of SAS and Python, and finally ArcGIS. ArcGIS was chosen from among other possible tools because the interface is fairly user-friendly, it is great for geographical data visualization, and it does not require as sophisticated coding skills as some of the other solutions.
+
+### Layout
+The dashboard has different interfaces, which allow the user to choose whether they would like to see data regarding infection or vaccination on either a municipal or a regional level. Once an interface has been chosen, the viewer can see various relevant numbers, graphs and tables, including an interactive map of Denmark broken down by the aforementioned level of the user’s choosing. Some figures are also interactive, allowing the user to choose a municipality or region to view in greater detail. Additionally, the collection of dashboards has an interface displaying key national numbers covering the last 24 hour period as well as since 27 January 2020.
 
 ### Implementation
 The dashboards are automated and update every day at 14:00 CET. The update frequency can be adjusted depending on the level of alertness/attention regarding covid-19. Since the summer of 2022, only the key national numbers interface is updated daily, while the rest of the dashboard is updated only on weekdays.
 
 ## Disease Dashboards (SVA, Sweden)
 
-The National Veterinary Institute (SVA) is the largest veterinary laboratory in Sweden. Every day the microbiology, pathology and sequencing departments analyse a large amount of samples, which in turn produces large amount of data. These data need to be summarised and translated into actionable information in order to fulfil one our main missions: surveillance communication. We need to effectively communicate the epidemiological situation of Sweden to disease experts, as well as animal owners and the general public.
+The Swedish Veterinary Agency (SVA) is the largest veterinary laboratory in Sweden. Every day the microbiology, pathology and sequencing departments analyse a large amount of samples, which in turn produces large amount of data. These data need to be summarised and translated into actionable information in order to fulfil one our main missions: surveillance communication. We need to effectively communicate the epidemiological situation of Sweden to disease experts, as well as animal owners and the general public.
 
-<a href="https://www.sva.se/amnesomraden/smittlage/sjukdomsrapporter-om-sva-s-overvakning/" target="_blank">Surveillance of infectious diseases in animals and humans</a> ("the surveillance report") is the annual report describing the surveillance activities carried out in Sweden during the year. The report covers surveillance for important animal diseases and zoonotic agents in humans, food, feed and animals, carried out and compiled by experts from several Swedish governmental agencies, university and private industry with surveillance mandates along the entire food chain, from farm to fork. The surveillance report is published by the National Veterinary Institute (SVA), in collaboration with the Swedish Board of Agriculture, the Public Health Agency and the Swedish Food Agency.
+<a href="https://www.sva.se/amnesomraden/smittlage/sjukdomsrapporter-om-sva-s-overvakning/" target="_blank">Surveillance of infectious diseases in animals and humans</a> ("the surveillance report") is the annual report describing the surveillance activities carried out in Sweden during the year. The report covers surveillance for important animal diseases and zoonotic agents in humans, food, feed and animals, carried out and compiled by experts from several Swedish governmental agencies, university and private industry with surveillance mandates along the entire food chain, from farm to fork. The surveillance report is published by the Swedish Veterinary Agency (SVA), in collaboration with the Swedish Board of Agriculture, the Public Health Agency and the Swedish Food Agency.
 
 To better highlight the important findings presented in the report, and to strengthen the "one health-ness" of the surveillance, SVA is now planning to translate the contents of chapters describing hazards of great interest into interactive online Disease Dashboards. These dashboards will collect all our available knowledge about a specific pathogen, both historically and the current situation.
 
@@ -80,7 +80,7 @@ The dashboard will be developed using a combination of R, JavaScript and CSS. An
 **<a href="https://foodrisklabs.bfr.bund.de" target="_blank">https://foodrisklabs.bfr.bund.de</a>**
 
 FoodChain-Lab (FCL) is a free and open-source software tool aimed to support trace-back and trace-forward analysis of implicated feed or food items along supply chains as well as exposure and risk assessments in foodborne incidents (outbreaks, chemical contaminations).
-Implementation: 
+Implementation:
 The desktop version of FCL has been implemented as a modular extension to the open source data analytics platform Konstanz Information Miner (KNIME). KNIME enables visual assembly of data analysis workflows. These workflows consist of so-called nodes and edges. Each node is able to perform a specific data processing task while edges define how information flow is directed between nodes. FCL is also available as a web application (<a href="https://fcl-portal.bfr.berlin" target="_blank">FCL Web</a>).
 
 FoodChain-Lab was created in 2011 and has been running and constantly developing with the support of third projects. From 2023 onward, FCL will be supported by EFSA and BfR for further improvements.
@@ -108,7 +108,7 @@ The GENPAT platform is derived from the OHEJP COHESIVE project results. In parti
 **<a href="https://freddietafreeth.shinyapps.io/OH-EpiCap/" target="_blank">https://freddietafreeth.shinyapps.io/OH-EpiCap/</a>**
 
 OH-EpiCap Tool: Evaluation tool for One Health epidemiological surveillance capacities and capabilities
-The OH-EpiCap tool aims to develop system-specific profiles of (potential) surveillance interoperability between sectors, highlighting both strengths and gaps in surveillance capacities and capabilities. 
+The OH-EpiCap tool aims to develop system-specific profiles of (potential) surveillance interoperability between sectors, highlighting both strengths and gaps in surveillance capacities and capabilities.
 
 The OH-EpiCap tool allows evaluation and improvement of ‘One Health (OH)-ness’ using a set of standardized indicators, which allows comparison across systems, countries and hazards of interest. Countries at similar levels of ‘OH-ness’, including similar capacities, limitations and resources, can potentially collaborate to develop a common framework for OH Surveillance that will address zoonotic threats across borders. This will improve national OH structures, including surveillance and data analysis, while also facilitating better integration of multinational collaboration. Countries at different levels of ‘OH-ness’ and surveillance capacities/resources can share experiences regarding surveillance practice against the same pathogen, transfer knowledge and share ideas to improve surveillance quality and efficacy across settings.
 
@@ -132,7 +132,7 @@ More information is available here: <a href="https://onehealthejp.eu/wp-content/
 
 Since most veterinary antibiotics employed in livestock production are excreted essentially unaltered, they have been identified as major contributors of environmental contamination. Specifically, the presence of antimicrobial resistance (AMR) determinants has been recognised as a global hazard. However, the efforts of monitoring antimicrobial and AMR are focused on humans and livestock, neglecting the environment. Although selected substances are monitored in surface and ground-waters under the Water Framework Directive, no European regulatory framework for antibiotics contamination in soils is currently in place.
 
-The European Union institutions recognized this gap. In March 2019, the European Commission adopted the EU Strategic Approach to Pharmaceuticals in the Environment (2019), which is a component of the European Union's One Health Action Plan against Antimicrobial Resistance. One of the key points of PiE is the prioritisation of cost-effective monitoring of antimicrobials and antimicrobial resistances in water, soil, sediments, and wildlife using innovative strategies, such as advanced modelling and information technology (IT)-based tools and platforms. 
+The European Union institutions recognized this gap. In March 2019, the European Commission adopted the EU Strategic Approach to Pharmaceuticals in the Environment (2019), which is a component of the European Union's One Health Action Plan against Antimicrobial Resistance. One of the key points of PiE is the prioritisation of cost-effective monitoring of antimicrobials and antimicrobial resistances in water, soil, sediments, and wildlife using innovative strategies, such as advanced modelling and information technology (IT)-based tools and platforms.
 
 In this frame, this approach offers a prototype prioritisation tool applicable to soils to identify which sampling sites and antibiotics require more attention as part of monitoring efforts. It is an open source, providing dashboard features in a graphical user interface (Shiny App). To facilitate the implementation of the method in other EU countries, for which appropriate data are available, a script in R to run the model is available.
 
@@ -162,8 +162,8 @@ Resapath data are freely accessible via an interactive open-access web English i
 
 ### Layout & implementation
 
-This dashboard, updated once a year in the fall, was designed with R Shiny (a library of web development for the statistical software R). A custom stylesheet in CSS was developed to improve visual appeal. Graphs were created using specific R libraries (ggplot2, plotly). 
-This interface allows the visualization of results by selecting different combinations of interest (year/animal species/bacteria/pathology/antibiotic). Data are presented through three tabs: 
+This dashboard, updated once a year in the fall, was designed with R Shiny (a library of web development for the statistical software R). A custom stylesheet in CSS was developed to improve visual appeal. Graphs were created using specific R libraries (ggplot2, plotly).
+This interface allows the visualization of results by selecting different combinations of interest (year/animal species/bacteria/pathology/antibiotic). Data are presented through three tabs:
 
 - General data: number of antibiograms;
 - Antimicrobial susceptibility tables: proportion of susceptible strains;
@@ -180,7 +180,7 @@ The dashboard was authored by the <a href="https://www.inia.es/investigacion/ani
 ### Data Sources
 
 - SARS-CoV-2 outbreaks: World Animal Health Information System (<a href="https://wahis.woah.org/#/home" target="_blank">WAHIS</a>) of the World Organisation for Animal Health (WOAH, formerly OIE). Weekly download of notifications.
-- Climate data: Climate Data Online (<a href="https://www.ncei.noaa.gov/cdo-web/" target="_blank">CDO</a>) 
+- Climate data: Climate Data Online (<a href="https://www.ncei.noaa.gov/cdo-web/" target="_blank">CDO</a>)
 - Socioeconomical factors: <a href="https://www.worldbank.org/en/home" target="_blank">World Bank Data</a>
 
 ### Definitions of Animal Types
@@ -188,7 +188,7 @@ The dashboard was authored by the <a href="https://www.inia.es/investigacion/ani
 - Captive: Refers to wild animals with phenotypes unaffected by human selection but that are captive, for example zoo animals
 - Domestic: Livestock or farms (including fur farms)
 - Wild: an animal that has a phenotype unaffected by human selection and lives independent of direct human supervision or control. Included here are feral animals (animals of a domesticated species that now live without direct human supervision or control)
-- Pets: animals that live directly under human supervision or control, typically for companionship (dogs, cats, rabbits, etc.) 
+- Pets: animals that live directly under human supervision or control, typically for companionship (dogs, cats, rabbits, etc.)
 
 ### Layout
 
@@ -226,7 +226,7 @@ Notifiable animal disease data are collected into TSN, a relational database man
 
 
 ### Layout
-The TSIS web interface is structured with a navigation bar at the top of the page with menu options ‘*Startseite*’(Home page), ‘*Tierseuchenlage*’(Animal disease situation), ‘*Service*’(Resources) and ‘*Impressum*’(About). The option ‘*Tierseuchenlage*’ provides the user with three further options ‘*Tiersucheninformationen*’ (Animal disease information), '*Amtlicher Monatsbericht*’ (Official Monthly report) and ‘*Tiergesundheitsjahresberichte*’ (Animal health annual reports). When the user selects the option ‘*Tiersucheninformationen*’ they are taken to a page presenting all the notifiable diseases for which a report is available. If the user then selects a disease of interest from the list, they arrive at a page listing all the reports available for that disease. The user can filter the information by case status (active or inactive), animal type (domestic or wild), disease occurrence date (can be a range), location (state and/or region), pathogen details, and/or association with a restriction zone. The data are visualised in tabular form. Cases can also be visualised geographically through overlay over a map of Germany. At this time, the data can not be exported, however, planned updates to the system will allow this function in the future. 
+The TSIS web interface is structured with a navigation bar at the top of the page with menu options ‘*Startseite*’(Home page), ‘*Tierseuchenlage*’(Animal disease situation), ‘*Service*’(Resources) and ‘*Impressum*’(About). The option ‘*Tierseuchenlage*’ provides the user with three further options ‘*Tiersucheninformationen*’ (Animal disease information), '*Amtlicher Monatsbericht*’ (Official Monthly report) and ‘*Tiergesundheitsjahresberichte*’ (Animal health annual reports). When the user selects the option ‘*Tiersucheninformationen*’ they are taken to a page presenting all the notifiable diseases for which a report is available. If the user then selects a disease of interest from the list, they arrive at a page listing all the reports available for that disease. The user can filter the information by case status (active or inactive), animal type (domestic or wild), disease occurrence date (can be a range), location (state and/or region), pathogen details, and/or association with a restriction zone. The data are visualised in tabular form. Cases can also be visualised geographically through overlay over a map of Germany. At this time, the data can not be exported, however, planned updates to the system will allow this function in the future.
 
 ## Netherlands
 
@@ -238,10 +238,10 @@ No dashboard reported as of yet.
 
 ## Portugal
 
-Considering the One Health concept there is not any report which includes human, animal and environmental health. However, there are reports for human and animal health separately. 
+Considering the One Health concept there is not any report which includes human, animal and environmental health. However, there are reports for human and animal health separately.
 
 Regarding the human health reports, they are annually published by the General Directorate of Health (<a href="https://www.dgs.pt/" target="_blank">DGS</a>) and are related to viral hepatitis, tuberculosis and prevention and control of infections and antimicrobial resistance.
 
-Concerning the animal health reports, they are annually published by the General Directorate of Food and Veterinary (<a href="https://www.dgav.pt/" target="_blank">DGAV</a>) and are related to some zoonoses that affect the animals in Portugal, such as bovine tuberculosis, bovine brucellosis, salmonella, among others. 
+Concerning the animal health reports, they are annually published by the General Directorate of Food and Veterinary (<a href="https://www.dgav.pt/" target="_blank">DGAV</a>) and are related to some zoonoses that affect the animals in Portugal, such as bovine tuberculosis, bovine brucellosis, salmonella, among others.
 
-At this moment, a dashboard that includes animal and human health is not planned. 
+At this moment, a dashboard that includes animal and human health is not planned.

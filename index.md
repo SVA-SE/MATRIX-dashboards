@@ -48,7 +48,7 @@ This information centre will also function as an inventory and showcase of all p
 
 ### Member Contributions
 
-The efforts in Work Package 6 of MATRIX are led by the Swedish National Veterinary Institute (<a href="https://www.sva.se/en/" target="_blank">SVA</a>), and the Norwegian Institute of Public Health (<a href="https://www.fhi.no/en/" target="_blank">NIPH</a>). The following institutes are also contributing to WP6:
+The efforts in Work Package 6 of MATRIX are led by the Swedish Veterinary Agency (<a href="https://www.sva.se/en/" target="_blank">SVA</a>), and the Norwegian Institute of Public Health (<a href="https://www.fhi.no/en/" target="_blank">NIPH</a>). The following institutes are also contributing to WP6:
 
 * The French Agency for Food, Environmental and Occupational Health & Safety (<a href="https://www.anses.fr/en" target="_blank">ANSES</a>)
 * The German Federal Institute for Risk Assessment (<a href="https://www.bfr.bund.de/en/home.html" target="_blank">BfR</a>)
